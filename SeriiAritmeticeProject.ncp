@@ -1,0 +1,164 @@
+<Project>
+  <Name>SeriiAritmeticeProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>SeriiAritmetice</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Termen</Name>
+        <Access>Public</Access>
+        <Location left="21" top="19" />
+        <Size width="162" height="96" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieAritmetica</Name>
+        <Access>Public</Access>
+        <Location left="24" top="147" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; Termen &gt; TermeniiSeriei</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieGeometrica</Name>
+        <Access>Public</Access>
+        <Location left="52" top="242" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieFinita</Name>
+        <Access>Public</Access>
+        <Location left="83" top="302" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Serieinfinita</Name>
+        <Access>Public</Access>
+        <Location left="131" top="356" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void nthPartialSum()</Member>
+        <Member type="Method">public void Convergenta()</Member>
+        <Member type="Method">public void nthTermen()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieConvergenta</Name>
+        <Access>Public</Access>
+        <Location left="163" top="423" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Proprietate</Name>
+        <Access>Public</Access>
+        <Location left="203" top="482" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Test</Name>
+        <Access>Public</Access>
+        <Location left="221" top="557" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Comparare()</Member>
+        <Member type="Method">public void ComparareLimita()</Member>
+        <Member type="Method">public void pserie()</Member>
+        <Member type="Method">public void Integrala()</Member>
+        <Member type="Method">public void Ratio()</Member>
+        <Member type="Method">public void Root()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieAlternanta</Name>
+        <Access>Public</Access>
+        <Location left="35" top="663" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Leibnitz()</Member>
+        <Member type="Method">public void ConvergentaAbsoluta()</Member>
+        <Member type="Method">public void ConvergentaConditionala()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieDePutere</Name>
+        <Access>Public</Access>
+        <Location left="72" top="751" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void SPVariabila()</Member>
+        <Member type="Method">public void SPRange()</Member>
+        <Member type="Method">public void IntervalDeConvergenta()</Member>
+        <Member type="Method">public void RazaDeConvergenta()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DiferentiealaSerieDePutere</Name>
+        <Access>Public</Access>
+        <Location left="125" top="901" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegralaSerieDePutere</Name>
+        <Access>Public</Access>
+        <Location left="165" top="964" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieTaylor</Name>
+        <Access>Public</Access>
+        <Location left="126" top="1040" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void RemaindeAfterTheTerm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieMAclaurin</Name>
+        <Access>Public</Access>
+        <Location left="153" top="1141" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieDePutereExpansiunePentruUneleFunctii</Name>
+        <Access>Public</Access>
+        <Location left="81" top="1199" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SerieBinoma</Name>
+        <Access>Public</Access>
+        <Location left="122" top="1247" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SeriaFourier</Name>
+        <Access>Public</Access>
+        <Location left="155" top="1297" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

@@ -1,0 +1,170 @@
+<Project>
+  <Name>CalculusDiferentialProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>CalculusDiferential</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Calculus</Name>
+        <Access>Public</Access>
+        <Location left="8" top="17" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Analiza</Name>
+        <Access>Public</Access>
+        <Location left="178" top="19" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Diferentiala</Name>
+        <Access>Public</Access>
+        <Location left="10" top="245" />
+        <Size width="162" height="485" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void fPar()</Member>
+        <Member type="Method">public void fImpar()</Member>
+        <Member type="Method">public void fPeriodica()</Member>
+        <Member type="Method">public void fInversa()</Member>
+        <Member type="Method">public void fCompusa()</Member>
+        <Member type="Method">public void fLineara()</Member>
+        <Member type="Method">public void fPatrata()</Member>
+        <Member type="Method">public void fCubica()</Member>
+        <Member type="Method">public void fPutere()</Member>
+        <Member type="Method">public void fRadacinaPatrata()</Member>
+        <Member type="Method">public void fExponent()</Member>
+        <Member type="Method">public void fLogaritm()</Member>
+        <Member type="Method">public void fsinh()</Member>
+        <Member type="Method">public void fcosh()</Member>
+        <Member type="Method">public void ftanh()</Member>
+        <Member type="Method">public void fcoth()</Member>
+        <Member type="Method">public void fsech()</Member>
+        <Member type="Method">public void fcsch()</Member>
+        <Member type="Method">public void arcsinh()</Member>
+        <Member type="Method">public void arccosh()</Member>
+        <Member type="Method">public void arctanh()</Member>
+        <Member type="Method">public void arccoth()</Member>
+        <Member type="Method">public void arcsech()</Member>
+        <Member type="Method">public void arccsch()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LimiteDeFunctii</Name>
+        <Access>Public</Access>
+        <Location left="182" top="248" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int argument</Member>
+        <Member type="Field">List &lt;Real&gt; realconstant</Member>
+        <Member type="Method">public void lim()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Derivative</Name>
+        <Access>Public</Access>
+        <Location left="180" top="475" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int variabilaindependenta</Member>
+        <Member type="Field">int constantareala</Member>
+        <Member type="Field">int unghi</Member>
+        <Member type="Method">public void quotientrule()</Member>
+        <Member type="Method">public void chainrule()</Member>
+        <Member type="Method">public void derivativeofinversefunction()</Member>
+        <Member type="Method">public void reciprocalrule()</Member>
+        <Member type="Method">public void logarithmdifferentiation()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DerivativeDeOrdinSuperior</Name>
+        <Access>Public</Access>
+        <Location left="184" top="712" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void SecondDerivative()</Member>
+        <Member type="Method">public void DerivativaDeOrdinSuperior()</Member>
+        <Member type="Method">public void Leibnitz()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AplicatiiAleDerivativelor</Name>
+        <Access>Public</Access>
+        <Location left="10" top="745" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Point pozitiaobiectului</Member>
+        <Member type="Field">int timp</Member>
+        <Member type="Method">public void Viteza()</Member>
+        <Member type="Method">public void Acceleratie()</Member>
+        <Member type="Method">public void liniatangenta()</Member>
+        <Member type="Method">public void linianormala()</Member>
+        <Member type="Method">public void finc()</Member>
+        <Member type="Method">public void fdec()</Member>
+        <Member type="Method">public void extremalocala()</Member>
+        <Member type="Method">public void localmaxim()</Member>
+        <Member type="Method">public void localminim()</Member>
+        <Member type="Method">public void criticalpoints()</Member>
+        <Member type="Method">public void firstderivativeforlocalextrema()</Member>
+        <Member type="Method">public void derivativasecundaforlocalextreme()</Member>
+        <Member type="Method">public void concavity()</Member>
+        <Member type="Method">public void secondderivaiveforconcavity()</Member>
+        <Member type="Method">public void inflectionPoints()</Member>
+        <Member type="Method">public void LHopital()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Diferential</Name>
+        <Access>Public</Access>
+        <Location left="187" top="949" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void deltax()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>functiimultivariabila</Name>
+        <Access>Public</Access>
+        <Location left="191" top="1200" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void derivaticapartialadeordinintai()</Member>
+        <Member type="Method">public void derivaticapartialadeordinsecund()</Member>
+        <Member type="Method">public void chain()</Member>
+        <Member type="Method">public void smallchange()</Member>
+        <Member type="Method">public void localmaxim()</Member>
+        <Member type="Method">public void localminim()</Member>
+        <Member type="Method">public void stationarypoints()</Member>
+        <Member type="Method">public void saddlepoint()</Member>
+        <Member type="Method">public void secondderivativetestforstationarypoints()</Member>
+        <Member type="Method">public void tangentplane()</Member>
+        <Member type="Method">public void ecuatiaplanuluitangentlaosuprafata()</Member>
+        <Member type="Method">public void normalalasuprafata()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>operatoriDiferentiali</Name>
+        <Access>Public</Access>
+        <Location left="16" top="1167" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int univectoralongcoordinateaxes</Member>
+        <Member type="Field">int scalarfunctions</Member>
+        <Member type="Field">int gradientofscalarfield</Member>
+        <Member type="Field">int directionalderivative</Member>
+        <Member type="Field">int vectorfunction</Member>
+        <Member type="Field">int divergenceofvectorfield</Member>
+        <Member type="Field">int curldofavectorfield</Member>
+        <Member type="Field">int laplace</Member>
+        <Member type="Method">public void div()</Member>
+        <Member type="Method">public void curl()</Member>
+        <Member type="Method">public void laplace()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

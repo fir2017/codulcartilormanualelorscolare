@@ -1,0 +1,724 @@
+<Project>
+  <Name>GeometryProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Geometry</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Triunghi</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Unghi</Name>
+        <Access>Public</Access>
+        <Location left="214" top="350" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Mediana</Name>
+        <Access>Public</Access>
+        <Location left="288" top="115" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Inaltime</Name>
+        <Access>Public</Access>
+        <Location left="268" top="74" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Ipotenuza</Name>
+        <Access>Public</Access>
+        <Location left="240" top="43" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Linie</Name>
+        <Access>Public</Access>
+        <Location left="220" top="23" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriunghiDrept</Name>
+        <Access>Public</Access>
+        <Location left="29" top="74" />
+        <Size width="162" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Puncte &gt; puncte</Member>
+        <Member type="Method">public void sin()</Member>
+        <Member type="Method">public void cos()</Member>
+        <Member type="Method">public void tan()</Member>
+        <Member type="Method">public void cot()</Member>
+        <Member type="Method">public void sec()</Member>
+        <Member type="Method">public void cosec()</Member>
+        <Member type="Method">public void Pitagora()</Member>
+        <Member type="Method">public void LaturaMica()</Member>
+        <Member type="Method">public void LaturaMare()</Member>
+        <Member type="Method">public void Ipotenuza()</Member>
+        <Member type="Method">public void Inaltimea()</Member>
+        <Member type="Method">public void MedianaLaturei()</Member>
+        <Member type="Method">public void MedianaIpotenuzei()</Member>
+        <Member type="Method">public void Suprafata()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Triunghi</Name>
+        <Access>Public</Access>
+        <Location left="10" top="23" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">float aria</Member>
+        <Member type="Method">public void Aria()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RazaCerculuiCircumscris</Name>
+        <Access>Public</Access>
+        <Location left="234" top="406" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RazaCerculuiInscris</Name>
+        <Access>Public</Access>
+        <Location left="253" top="449" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriunghiIsoscel</Name>
+        <Access>Public</Access>
+        <Location left="47" top="243" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void UnghiulBazei()</Member>
+        <Member type="Method">public void UnghiulVarfului()</Member>
+        <Member type="Method">public void Perimetrul()</Member>
+        <Member type="Method">public void Aria()</Member>
+        <Member type="Method">public void Lungimea()</Member>
+        <Member type="Method">public void Suprafata()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriunghiEchilateral</Name>
+        <Access>Public</Access>
+        <Location left="63" top="312" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int Inaltime</Member>
+        <Member type="Field">int Perimetru</Member>
+        <Member type="Field">int Aria</Member>
+        <Member type="Field">int Suprafata</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriunghiScalen</Name>
+        <Access>Public</Access>
+        <Location left="85" top="381" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; Latura &gt; Laturile</Member>
+        <Member type="Field">int Midline</Member>
+        <Member type="Method">public void Semiperimetru()</Member>
+        <Member type="Method">public void UngiulX()</Member>
+        <Member type="Method">public void MedianaLatureiX()</Member>
+        <Member type="Method">public void BisectoareaUnghiuluiX()</Member>
+        <Member type="Method">public void Existenta()</Member>
+        <Member type="Method">public void LegeaCosinusurilor()</Member>
+        <Member type="Method">public void LegeaSinusurilor()</Member>
+        <Member type="Method">public void Diametrul()</Member>
+        <Member type="Method">public void Heron()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Patrat</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Patrat</Name>
+        <Access>Public</Access>
+        <Location left="8" top="14" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Latura&gt; Laturi</Member>
+        <Member type="Field">List &lt;Punct&gt; Puncte</Member>
+        <Member type="Field">int Diagonala</Member>
+        <Member type="Field">int RAzaCerculuiCircumscris</Member>
+        <Member type="Field">int RazaCerculuiInscris</Member>
+        <Member type="Field">int Perimetrul</Member>
+        <Member type="Field">int Aria</Member>
+        <Member type="Field">int Suprafata</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Rectangul</Name>
+        <Access>Public</Access>
+        <Location left="50" top="74" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Distanta()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Paralelogram</Name>
+        <Access>Public</Access>
+        <Location left="90" top="146" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int DiagonalaPrincipala</Member>
+        <Member type="Field">int DiagonalaSecundara</Member>
+        <Member type="Method">public void UnghiDintreDiagonale()</Member>
+        <Member type="Method">public void UnghiuriConsecutive()</Member>
+        <Member type="Method">public void SumaUnghiurilorBazei()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Romb</Name>
+        <Access>Public</Access>
+        <Location left="121" top="195" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Trapez</Name>
+        <Access>Public</Access>
+        <Location left="157" top="249" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int LinieMijlocie</Member>
+        <Member type="Field">int BazaTrapezului</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TrapezIsoscel</Name>
+        <Access>Public</Access>
+        <Location left="188" top="306" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int PiciorulTrapezului</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TrapezIsoscelInscrisInCerc</Name>
+        <Access>Public</Access>
+        <Location left="224" top="370" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TrapezoidInscrisInCerc</Name>
+        <Access>Public</Access>
+        <Location left="251" top="423" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Kite</Name>
+        <Access>Public</Access>
+        <Location left="269" top="488" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Cilindru</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>CilindruDrept</Name>
+        <Access>Public</Access>
+        <Location left="12" top="13" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Ptolemeu()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PatrulaterTangential</Name>
+        <Access>Public</Access>
+        <Location left="47" top="61" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PatrulaterGeneral</Name>
+        <Access>Public</Access>
+        <Location left="69" top="114" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Unghi&gt; UnghiuriInterne</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>NGon</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>HexagonRegular</Name>
+        <Access>Public</Access>
+        <Location left="26" top="29" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int InaltimeaLaturei</Member>
+        <Member type="Field">Unghi UnghiulDintreDouaLaturi</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Unghi</Name>
+        <Access>Public</Access>
+        <Location left="201" top="33" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PoligonRegular</Name>
+        <Access>Public</Access>
+        <Location left="56" top="90" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Cercuri</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Cerc</Name>
+        <Access>Public</Access>
+        <Location left="9" top="16" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Diametrul Raza</Member>
+        <Member type="Field">int Coarda</Member>
+        <Member type="Field">int SegmentSecant</Member>
+        <Member type="Field">int SegmentTangent</Member>
+        <Member type="Field">int Centru</Member>
+        <Member type="Field">int UnghiCentral</Member>
+        <Member type="Field">Triunghi TriunghiInscris</Member>
+        <Member type="Field">int Perimetru</Member>
+        <Member type="Field">int Aria</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SectorDeCerc</Name>
+        <Access>Public</Access>
+        <Location left="53" top="69" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int UnghiCentralX</Member>
+        <Member type="Field">int UnghiCentralAlfa</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SegmentDeCerc</Name>
+        <Access>Public</Access>
+        <Location left="98" top="123" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int InaltimeaSegmentului</Member>
+        <Member type="Field">int LungimeaArcului</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Cuburi</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Cub</Name>
+        <Access>Public</Access>
+        <Location left="20" top="9" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Muchia Muchie</Member>
+        <Member type="Field">int Daigonala</Member>
+        <Member type="Field">int RazaSfereiInscrise</Member>
+        <Member type="Field">int RazaSfereiCircumscrise</Member>
+        <Member type="Field">int AriaSuprafetei</Member>
+        <Member type="Field">int Suprafata</Member>
+        <Member type="Field">int Volum</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Muchie</Name>
+        <Access>Public</Access>
+        <Location left="206" top="26" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Punct&gt; Puncte</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Fata</Name>
+        <Access>Public</Access>
+        <Location left="221" top="132" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Forma fata</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Forma</Name>
+        <Access>Public</Access>
+        <Location left="245" top="227" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Puncte&gt; Puncte</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ParalelipipedDrept</Name>
+        <Access>Public</Access>
+        <Location left="60" top="127" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Prisma</Name>
+        <Access>Public</Access>
+        <Location left="84" top="183" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Muchie MuchieLaterala</Member>
+        <Member type="Field">int AriaLateralei</Member>
+        <Member type="Field">int AriaBazei</Member>
+        <Member type="Field">int SuprafataTotala</Member>
+        <Member type="Method">public void Cavalieri()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TetrahedronRegular</Name>
+        <Access>Public</Access>
+        <Location left="114" top="232" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int LungimeaTriunghiuluiLateral</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PiramidaRegulara</Name>
+        <Access>Public</Access>
+        <Location left="136" top="279" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int NumarulLaturilor</Member>
+        <Member type="Field">int LaturaLaterala</Member>
+        <Member type="Field">int PantaInaltimii</Member>
+        <Member type="Field">int NumarulDeLaturiAleBazei</Member>
+        <Member type="Field">int SemiperimetrulBazei</Member>
+        <Member type="Field">int RazaSfereiInscriseInBAza</Member>
+        <Member type="Field">int AriaBazei</Member>
+        <Member type="Field">int SuprafataArieiLaterale</Member>
+        <Member type="Field">int AriaSuprafateiTotale</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TrunghiDePiramidaRegulara</Name>
+        <Access>Public</Access>
+        <Location left="161" top="335" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int ScaleFactor</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PrismaDreaptaRegulara</Name>
+        <Access>Public</Access>
+        <Location left="201" top="422" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Muchia MuchiaDeSus</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Solide</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>PlatonicSolids</Name>
+        <Access>Public</Access>
+        <Location left="17" top="14" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int Latura</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PoliedereConvexe</Name>
+        <Access>Public</Access>
+        <Location left="124" top="94" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PoliedreRegulare</Name>
+        <Access>Public</Access>
+        <Location left="159" top="168" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Tetrahedron</Name>
+        <Access>Public</Access>
+        <Location left="27" top="225" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cub</Name>
+        <Access>Public</Access>
+        <Location left="62" top="275" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Octahedron</Name>
+        <Access>Public</Access>
+        <Location left="115" top="328" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Icosahedron</Name>
+        <Access>Public</Access>
+        <Location left="171" top="396" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Dodecahedron</Name>
+        <Access>Public</Access>
+        <Location left="200" top="468" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>CilindruDrept</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>CilindruDrept</Name>
+        <Access>Public</Access>
+        <Location left="13" top="10" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int RazaBazei</Member>
+        <Member type="Field">int DiametrulBazei</Member>
+        <Member type="Field">int Inaltime</Member>
+        <Member type="Field">int AriaSuprafateiLaterale</Member>
+        <Member type="Field">int AriaBazei</Member>
+        <Member type="Field">int AriaSuprafateiTotale</Member>
+        <Member type="Field">int Volumul</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CilindruDreptCuFataOblicaPlana</Name>
+        <Access>Public</Access>
+        <Location left="58" top="60" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int InaltimeaLatureiMari</Member>
+        <Member type="Field">int InaltimeaLatureiMici</Member>
+        <Member type="Field">int SuprafataLatureiLaterale</Member>
+        <Member type="Field">int AriaPlanuluiFeteiFinale</Member>
+        <Member type="Field">int AriaSuprafeteiTotale</Member>
+        <Member type="Field">int Volum</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Conice</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>ConCircularDrept</Name>
+        <Access>Public</Access>
+        <Location left="36" top="22" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int RazaBazei</Member>
+        <Member type="Field">int DiametrulBazei</Member>
+        <Member type="Field">int Inaltimea</Member>
+        <Member type="Field">int InaltimeaPantei</Member>
+        <Member type="Field">int AriaSuprafeteiLaterale</Member>
+        <Member type="Field">int AriaBazei</Member>
+        <Member type="Field">int AriaSuprafeteiTotale</Member>
+        <Member type="Field">int Volum</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TrunghiDeConCircularDrept</Name>
+        <Access>Public</Access>
+        <Location left="67" top="72" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int InaltimeaPantei</Member>
+        <Member type="Field">int ScaleFactor</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Sfere</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Sfera</Name>
+        <Access>Public</Access>
+        <Location left="35" top="29" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int Raza</Member>
+        <Member type="Field">int Diametrul</Member>
+        <Member type="Field">int AriaSuprafetei</Member>
+        <Member type="Field">int Volum</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Emisfera</Name>
+        <Access>Public</Access>
+        <Location left="61" top="77" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int RazaEmisferei</Member>
+        <Member type="Field">int RazaBazei</Member>
+        <Member type="Field">int Inaltime</Member>
+        <Member type="Field">int AriaFeteiPlane</Member>
+        <Member type="Field">int AriaEmisferei</Member>
+        <Member type="Field">int AriaSuprafeteiTotale</Member>
+        <Member type="Field">int Volum</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SectorSferic</Name>
+        <Access>Public</Access>
+        <Location left="92" top="128" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int RazaBazeiEmisferei</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SegmentSferic</Name>
+        <Access>Public</Access>
+        <Location left="122" top="211" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int RazaBazeiMici</Member>
+        <Member type="Field">int RazaBazeiMari</Member>
+        <Member type="Field">int Inaltime</Member>
+        <Member type="Field">int AriaSuprafeteiSferice</Member>
+        <Member type="Field">int AriaSuprafeteiPlanuluiMare</Member>
+        <Member type="Field">int AriaSuprafeteiPlanuluiMici</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SfericalWedge</Name>
+        <Access>Public</Access>
+        <Location left="147" top="258" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int UnghiDiedruGrade</Member>
+        <Member type="Field">int UnghiDiedruRadiani</Member>
+        <Member type="Field">int AriaLuniiSferice</Member>
+        <Member type="Field">int AriaSuprafeteiTotale</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Elipsoid</Name>
+        <Access>Public</Access>
+        <Location left="189" top="314" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; Semiaxa&gt; Semiaxe</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Semiaxa</Name>
+        <Access>Public</Access>
+        <Location left="13" top="399" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SferoidProlate</Name>
+        <Access>Public</Access>
+        <Location left="226" top="372" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; Semiaxa&gt; Semiaxe</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SperoidOblate</Name>
+        <Access>Public</Access>
+        <Location left="251" top="423" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TorCircular</Name>
+        <Access>Public</Access>
+        <Location left="281" top="467" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int RazaMare</Member>
+        <Member type="Field">int RazaMica</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

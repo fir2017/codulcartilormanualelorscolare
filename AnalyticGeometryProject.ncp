@@ -1,0 +1,330 @@
+<Project>
+  <Name>AnalyticGeometryProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>AnalyticGeometry</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>GeometrieAnalitica</Name>
+        <Access>Public</Access>
+        <Location left="16" top="17" />
+        <Size width="162" height="304" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Distanta()</Member>
+        <Member type="Method">public void DivideLine2Ratio()</Member>
+        <Member type="Method">public void MidpointOfLineSegment()</Member>
+        <Member type="Method">public void DistanceABPolarCoordinates()</Member>
+        <Member type="Method">public void ConvertRectangleCoordinate2PolarCoordinate()</Member>
+        <Member type="Method">public void ConvertPolarCoordinate2RectangularCoordinate()</Member>
+        <Member type="Method">public void OrigineaCoordonatei()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Hyperbola</Name>
+        <Access>Public</Access>
+        <Location left="634" top="1202" />
+        <Size width="162" height="366" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int AxaTransversala</Member>
+        <Member type="Field">int AxaConjugata</Member>
+        <Member type="Field">Foci F1</Member>
+        <Member type="Field">Foci F2</Member>
+        <Member type="Field">int AsymptotaS</Member>
+        <Member type="Field">int AsymptotaT</Member>
+        <Member type="Field">int Excentricitate</Member>
+        <Member type="Method">public void EcuatieiHyperbolei()</Member>
+        <Member type="Method">public void DistanceIntreDouaPuncte()</Member>
+        <Member type="Method">public void EcuatiaAsymptotei()</Member>
+        <Member type="Method">public void Escentricitate()</Member>
+        <Member type="Method">public void EcuatiaDirectrices()</Member>
+        <Member type="Method">public void EcuatiaParametricaARightBranch()</Member>
+        <Member type="Method">public void FormaGenerala()</Member>
+        <Member type="Method">public void FormaGeneralaCuAxeParalelLaAxeleDeCoordonate()</Member>
+        <Member type="Method">public void FormaAsymptotica()</Member>
+        <Member type="Method">public void DistantaDintreFoci()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Parabola</Name>
+        <Access>Public</Access>
+        <Location left="16" top="342" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int ParametrulFocal</Member>
+        <Member type="Field">int Focus</Member>
+        <Member type="Field">List &lt;vertex&gt; Vertexuri</Member>
+        <Member type="Method">public void EcuatiaParabolei()</Member>
+        <Member type="Method">public void EcuatiaDirectrix()</Member>
+        <Member type="Method">public void CoodonataFocus()</Member>
+        <Member type="Method">public void CoortonataVertex()</Member>
+        <Member type="Method">public void FormaGenerala()</Member>
+        <Member type="Method">public void EcuatiaDirectrixFormaGenerala()</Member>
+        <Member type="Method">public void FormaGeneralaAAxelorParaleleLaAxaY()</Member>
+        <Member type="Method">public void EcuatiaDirectriceAxeParalele()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Vertex</Name>
+        <Access>Public</Access>
+        <Location left="203" top="325" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Foci</Name>
+        <Access>Public</Access>
+        <Location left="216" top="583" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TreeDimensionalCoordinateSystem</Name>
+        <Access>Public</Access>
+        <Location left="863" top="1244" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TwoDimensionalCoordinateSystem</Name>
+        <Access>Public</Access>
+        <Location left="425" top="862" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>OneDimensionCoordinateSystem</Name>
+        <Access>Public</Access>
+        <Location left="425" top="1164" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PolarCoordinate</Name>
+        <Access>Public</Access>
+        <Location left="425" top="1452" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cerc</Name>
+        <Access>Public</Access>
+        <Location left="447" top="96" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int Raza</Member>
+        <Member type="Field">Punct Centru</Member>
+        <Member type="Field">List &lt;Punct&gt; Coordonate</Member>
+        <Member type="Method">public void EcuatiaOriginiiCentruluiCercului()</Member>
+        <Member type="Method">public void EcuatiaCentruluiCerculuiInOricePunct()</Member>
+        <Member type="Method">public void TreePointForm()</Member>
+        <Member type="Method">public void ParametricForm()</Member>
+        <Member type="Method">public void GeneralForm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Elipsa</Name>
+        <Access>Public</Access>
+        <Location left="634" top="753" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int AxaSemimajora</Member>
+        <Member type="Field">int AxaSemininora</Member>
+        <Member type="Field">Foci F1</Member>
+        <Member type="Field">Foci F2</Member>
+        <Member type="Field">int Excentricitate</Member>
+        <Member type="Field">int Perimetru</Member>
+        <Member type="Field">int Aria</Member>
+        <Member type="Method">public void FormaParametricaElipsa()</Member>
+        <Member type="Method">public void EcuatiaElipsei()</Member>
+        <Member type="Method">public void EcuatiaDirectrices()</Member>
+        <Member type="Method">public void FormaGeneralaElipsa()</Member>
+        <Member type="Method">public void FormaGeneralaElipsaCuAxeParaleleLaAxeleDeCoordonate()</Member>
+        <Member type="Method">public void CircumferintaElipsa()</Member>
+        <Member type="Method">public void AproximateFormularaOfCircumference()</Member>
+        <Member type="Method">public void SuprafataElipsa()</Member>
+        <Member type="Method">public void DistantaDintreFoci()</Member>
+        <Member type="Method">public void Excentricitatea()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Triunghi</Name>
+        <Access>Public</Access>
+        <Location left="867" top="137" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void CentroidOfTriangle()</Member>
+        <Member type="Method">public void IncenterOfTriangle()</Member>
+        <Member type="Method">public void CircumcenterOfTriangle()</Member>
+        <Member type="Method">public void OrthocenterOfTriangle()</Member>
+        <Member type="Method">public void AreaOfTriangle()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Tetrahedron</Name>
+        <Access>Public</Access>
+        <Location left="820" top="1036" />
+        <Size width="162" height="139" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Volum()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Plan</Name>
+        <Access>Public</Access>
+        <Location left="425" top="394" />
+        <Size width="162" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Punct&gt; coordonate</Member>
+        <Member type="Field">List &lt; Vector &gt; vectorinomrali</Member>
+        <Member type="Field">List &lt; cos&gt; CosinusiDeDirectie</Member>
+        <Member type="Method">public void DistantaPunctPlan()</Member>
+        <Member type="Method">public void EcuatiaGenerala()</Member>
+        <Member type="Method">public void NormalVector2Plan()</Member>
+        <Member type="Method">public void EcuatiaPlanuluiCazuriParticulare()</Member>
+        <Member type="Method">public void FormaDirectionalaPoint()</Member>
+        <Member type="Method">public void FormaIntercept()</Member>
+        <Member type="Method">public void TreePointForm()</Member>
+        <Member type="Method">public void NoralForm()</Member>
+        <Member type="Method">public void ParametricForm()</Member>
+        <Member type="Method">public void UnghiDietruIntreDouaPlane()</Member>
+        <Member type="Method">public void PlaneParalele()</Member>
+        <Member type="Method">public void PlanePerpendiculare()</Member>
+        <Member type="Method">public void EcuatiaPlanuluiPrinVectorSiParaleleLaDoiVectori()</Member>
+        <Member type="Method">public void EcuatiaPlanuluiPrinDoiVectoriSiParaleleLaUnVectori()</Member>
+        <Member type="Method">public void DistantaDeLaPunctLaPlan()</Member>
+        <Member type="Method">public void IntersectiaADouaPlane()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LiniaDreapta</Name>
+        <Access>Public</Access>
+        <Location left="634" top="96" />
+        <Size width="162" height="587" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Punct&gt; coordonate</Member>
+        <Member type="Field">int unghiAlfa</Member>
+        <Member type="Field">int unghiBeta</Member>
+        <Member type="Field">Vector normalvector</Member>
+        <Member type="Field">List &lt; Vector &gt; vectoridepozitie</Member>
+        <Member type="Method">public void NormalVector2LinieDreapta()</Member>
+        <Member type="Method">public void EcuatiaExplicitaALinieiDrepte()</Member>
+        <Member type="Method">public void EcuatiaGenerala()</Member>
+        <Member type="Method">public void LiniaDreaptaInFormaParametrica()</Member>
+        <Member type="Method">public void EcuatiaExplicita()</Member>
+        <Member type="Method">public void PantaUneiLinii()</Member>
+        <Member type="Method">public void EcuatiaUnuiPunctPeOLinieInclinata()</Member>
+        <Member type="Method">public void EcuatiaUnieLiniiCareTrecePrintreDouaPuncte()</Member>
+        <Member type="Method">public void InterceptForm()</Member>
+        <Member type="Method">public void NormalForm()</Member>
+        <Member type="Method">public void PointDirectionForm()</Member>
+        <Member type="Method">public void VerticalLine()</Member>
+        <Member type="Method">public void HorizontalLine()</Member>
+        <Member type="Method">public void EcuatiaVectorLinieDreapta()</Member>
+        <Member type="Method">public void VectorDePozitieAUnuiPunct()</Member>
+        <Member type="Method">public void VectorulDeDirectie()</Member>
+        <Member type="Method">public void ParalelaLaOLinie()</Member>
+        <Member type="Method">public void PozitiaUnuiPunctPeOLinie()</Member>
+        <Member type="Method">public void LiniiParalele()</Member>
+        <Member type="Method">public void DistantaPunctLinie()</Member>
+        <Member type="Method">public void LiniiPerpendiculare()</Member>
+        <Member type="Method">public void UnghiulIntreDouaLinii()</Member>
+        <Member type="Method">public void IntersectiaAdouaLinii()</Member>
+        <Member type="Method">public void LiniaDreaptaInFormaParametrica()</Member>
+        <Member type="Method">public void LiniiPerpendiculare()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SuprafetePatrulatere</Name>
+        <Access>Public</Access>
+        <Location left="37" top="688" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void EcuatiaQuadraticaGenerala()</Member>
+        <Member type="Method">public void Clasificare()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Elipsoid</Name>
+        <Access>Public</Access>
+        <Location left="16" top="965" />
+        <Size width="162" height="366" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Real()</Member>
+        <Member type="Method">public void Imaginar()</Member>
+        <Member type="Method">public void Hyperboloid()</Member>
+        <Member type="Method">public void Hyperboloid2()</Member>
+        <Member type="Method">public void RealQuadraticCone()</Member>
+        <Member type="Method">public void ImaginariQuadraticCone()</Member>
+        <Member type="Method">public void ElipticParaboloid()</Member>
+        <Member type="Method">public void HyperbolicParabolid()</Member>
+        <Member type="Method">public void RealElipticCilindru()</Member>
+        <Member type="Method">public void ImaginaryEllipticCylinder()</Member>
+        <Member type="Method">public void HyperbolicCylinder()</Member>
+        <Member type="Method">public void RealIntersectingPlanes()</Member>
+        <Member type="Method">public void ImaginariIntersectingPlane()</Member>
+        <Member type="Method">public void ParabolicCylinder()</Member>
+        <Member type="Method">public void RealParallelPlanes()</Member>
+        <Member type="Method">public void ImaginaryParallelPlanes()</Member>
+        <Member type="Method">public void CoincidentPlanes()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Sfera</Name>
+        <Access>Public</Access>
+        <Location left="236" top="845" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int Raza</Member>
+        <Member type="Field">List &lt;Punct&gt; Centre</Member>
+        <Member type="Method">public List &lt;Punct&gt; coodonate()</Member>
+        <Member type="Method">public void EcuatiaSfereiCentrateInOrigine()</Member>
+        <Member type="Method">public void EcuatiaCerculuiCentradInOricePunct()</Member>
+        <Member type="Method">public void FormDiameter()</Member>
+        <Member type="Method">public void FourPointForm()</Member>
+        <Member type="Method">public void GeneralForm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CoordinateSystem</Name>
+        <Access>Public</Access>
+        <Location left="252" top="1164" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Punct&gt; coordonate</Member>
+        <Member type="Field">Real lambda</Member>
+        <Member type="Method">public void DistantaP1P2()</Member>
+        <Member type="Method">public void Aria()</Member>
+        <Member type="Method">public void Volum()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Patrulater</Name>
+        <Access>Public</Access>
+        <Location left="850" top="774" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AreaOfQuadrilateral()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Spatiu</Name>
+        <Access>Public</Access>
+        <Location left="850" top="466" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Punct&gt; Coordonate</Member>
+        <Member type="Field">List &lt; cos&gt; DirectionaCosinusi</Member>
+        <Member type="Field">List &lt;Linie&gt; VectoriLinie</Member>
+        <Member type="Field">int UnghiIntreDouaLinii</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

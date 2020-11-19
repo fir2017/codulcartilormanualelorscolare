@@ -1,0 +1,54 @@
+<Project>
+  <Name>EcuatiiDiferentialeProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>EcuatiiDiferentiale</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>FirstOrderOrdinaryDifferentialEquations</Name>
+        <Access>Public</Access>
+        <Location left="10" top="20" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void LinearEquation()</Member>
+        <Member type="Method">public void SeparableEquations()</Member>
+        <Member type="Method">public void HomogeneousEquations()</Member>
+        <Member type="Method">public void BernoulliEquation()</Member>
+        <Member type="Method">public void RiccatiEquation()</Member>
+        <Member type="Method">public void ExactEquation()</Member>
+        <Member type="Method">public void NonexactEquation()</Member>
+        <Member type="Method">public void RadioactiveDcay()</Member>
+        <Member type="Method">public void NewtonLawOfCooling()</Member>
+        <Member type="Method">public void PopulationDynamics()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SecondOrderDifferentialEquation</Name>
+        <Access>Public</Access>
+        <Location left="77" top="90" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void HomogeneousLinearEquationsWithConstantCoefficients()</Member>
+        <Member type="Method">public void InhomogeneousLinearEquationsWithConstantCoefficients()</Member>
+        <Member type="Method">public void DifferentialEquationsWithMiisinVariable()</Member>
+        <Member type="Method">public void FrreUndampeedVibrations()</Member>
+        <Member type="Method">public void FreeDampedVibrations()</Member>
+        <Member type="Method">public void SimplePendulum()</Member>
+        <Member type="Method">public void RCLCircuit()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PartialDifferentialEquation</Name>
+        <Access>Public</Access>
+        <Location left="129" top="166" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void LaplaceEquation()</Member>
+        <Member type="Method">public void HeatEquation()</Member>
+        <Member type="Method">public void WaveEquation()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
