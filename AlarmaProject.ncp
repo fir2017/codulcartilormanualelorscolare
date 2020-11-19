@@ -1,0 +1,62 @@
+<Project>
+  <Name>AlarmaProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Alarma</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Alarm</Name>
+        <Access>Public</Access>
+        <Location left="29" top="21" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Record&gt; inregistrari</Member>
+        <Member type="Field">Time timer</Member>
+        <Member type="Method">public void Adaugare()</Member>
+        <Member type="Method">public void Eliminare()</Member>
+        <Member type="Method">public void Pauza()</Member>
+        <Member type="Method">public void Run()</Member>
+        <Member type="Method">public void Update()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Record</Name>
+        <Access>Public</Access>
+        <Location left="223" top="25" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string AlertText</Member>
+        <Member type="Field">DateTime DateTimeCreated</Member>
+        <Member type="Field">DateTime DateTimeOfAlert</Member>
+        <Member type="Field">DateTime DateTimeDeleted</Member>
+        <Member type="Field">string SoundFile</Member>
+        <Member type="Field">int Repeting</Member>
+        <Member type="Field">DateTime SnoozeTime</Member>
+        <Member type="Field">YesNo OnOff</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>View</Name>
+        <Access>Public</Access>
+        <Location left="404" top="25" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void UpdateUI()</Member>
+        <Member type="Method">public Record AddNew()</Member>
+        <Member type="Method">public DateTime AlarmTimeSelection()</Member>
+        <Member type="Method">public void Delete()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Timer</Name>
+        <Access>Public</Access>
+        <Location left="587" top="28" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Event">public event EventHandler OnTimerTick</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
