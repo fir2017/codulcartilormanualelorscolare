@@ -1,0 +1,218 @@
+<Project>
+  <Name>IntegralCalculusProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>IntegralCalculus</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Integrala</Name>
+        <Access>Public</Access>
+        <Location left="26" top="13" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void integralaindefinitaauneifunctii()</Member>
+        <Member type="Method">public void derivativeofafunction()</Member>
+        <Member type="Method">public void metodasubstitutiei()</Member>
+        <Member type="Method">public void integrareprinparti()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareaFunctiilorRationale</Name>
+        <Access>Public</Access>
+        <Location left="67" top="168" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareaFunctiilorIrationale</Name>
+        <Access>Public</Access>
+        <Location left="91" top="219" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareaFunctiilorTrigonometice</Name>
+        <Access>Public</Access>
+        <Location left="112" top="269" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareaFunctiilorHyperbolice</Name>
+        <Access>Public</Access>
+        <Location left="133" top="321" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareaFunctiilorExponent</Name>
+        <Access>Public</Access>
+        <Location left="166" top="417" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareaFunctiilorLogaritm</Name>
+        <Access>Public</Access>
+        <Location left="187" top="487" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FormuleReduction</Name>
+        <Access>Public</Access>
+        <Location left="178" top="562" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegralaDefinita</Name>
+        <Access>Public</Access>
+        <Location left="68" top="613" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void SumaRiemann()</Member>
+        <Member type="Method">public void LimitaIntegrarii()</Member>
+        <Member type="Method">public void TeoremaFundamentalaAAnalizei()</Member>
+        <Member type="Method">public void MetodaSubstitutiei()</Member>
+        <Member type="Method">public void IntegrareaPrinParti()</Member>
+        <Member type="Method">public void RegulaTrapezoidului()</Member>
+        <Member type="Method">public void Simpson()</Member>
+        <Member type="Method">public void AriaDeSubCurba()</Member>
+        <Member type="Method">public void AriaDintreDouaCurbe()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Antiderivativa</Name>
+        <Access>Public</Access>
+        <Location left="248" top="760" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegralaImproprii</Name>
+        <Access>Public</Access>
+        <Location left="33" top="866" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void FunctieContinua()</Member>
+        <Member type="Method">public void Convergent()</Member>
+        <Member type="Method">public void Divergent()</Member>
+        <Member type="Method">public void TeoremaComparison()</Member>
+        <Member type="Method">public void ConvergentaAbsoluta()</Member>
+        <Member type="Method">public void IntegrareDscontinua()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareDubla</Name>
+        <Access>Public</Access>
+        <Location left="166" top="1018" />
+        <Size width="162" height="366" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void IntegrareDublaAUnuiRectangle()</Member>
+        <Member type="Method">public void DublaIntegrareAUneiRegiuni()</Member>
+        <Member type="Method">public void IterativIntregrala()</Member>
+        <Member type="Method">public void Fubini()</Member>
+        <Member type="Method">public void SchimbareDeVariabila()</Member>
+        <Member type="Method">public void CoordonataPolara()</Member>
+        <Member type="Method">public void DublaIntegrareInCoordonatePolare()</Member>
+        <Member type="Method">public void DiferentialaPentruCoordonatePolare()</Member>
+        <Member type="Method">public void AriaUneiRegiuni()</Member>
+        <Member type="Method">public void VolumulSolidelor()</Member>
+        <Member type="Method">public void AriaInCoordonatePolare()</Member>
+        <Member type="Method">public void VolumInCoordonatePolare()</Member>
+        <Member type="Method">public void AriaSuprafetei()</Member>
+        <Member type="Method">public void MomenteOfLamina()</Member>
+        <Member type="Method">public void CentrulDeMasa()</Member>
+        <Member type="Method">public void SchimbarePlaca()</Member>
+        <Member type="Method">public void MEdiaUneiFunctii()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriplaIntergrare</Name>
+        <Access>Public</Access>
+        <Location left="3" top="1059" />
+        <Size width="162" height="315" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void TriplaIntegrare()</Member>
+        <Member type="Method">public void TIParalelipiped()</Member>
+        <Member type="Method">public void TIRegiune()</Member>
+        <Member type="Method">public void EvaluareTIPrinIntegrariRepetate()</Member>
+        <Member type="Method">public void SchimbareDeVariabila()</Member>
+        <Member type="Method">public void TIInCoordonateCilindrice()</Member>
+        <Member type="Method">public void TIInCoordonateSferice()</Member>
+        <Member type="Method">public void VolumSolide()</Member>
+        <Member type="Method">public void VolumSolideInCilindriCoordonate()</Member>
+        <Member type="Method">public void VolumSolideInSfericalCoordonate()</Member>
+        <Member type="Method">public void MasaSolidului()</Member>
+        <Member type="Method">public void CentrulDeMasaSolid()</Member>
+        <Member type="Method">public void MomenteInInertie()</Member>
+        <Member type="Method">public void MomentePolareAInertiei()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareLiniara</Name>
+        <Access>Public</Access>
+        <Location left="12" top="1401" />
+        <Size width="162" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void LineIntegralOfAScalarFunction()</Member>
+        <Member type="Method">public void SmoothCurve()</Member>
+        <Member type="Method">public void LineIntegralOfAScalarFunctionInCoordonatePolare()</Member>
+        <Member type="Method">public void IntegrareaLiniilorInCampDeVectori()</Member>
+        <Member type="Method">public void CurbaParametrizata()</Member>
+        <Member type="Method">public void Green()</Member>
+        <Member type="Method">public void AriaRegiuniiInclusaInCurba()</Member>
+        <Member type="Method">public void PathIndependenceOfLineIntegrals()</Member>
+        <Member type="Method">public void ConservativeField()</Member>
+        <Member type="Method">public void LungimeCurba()</Member>
+        <Member type="Method">public void LungimeCurbaInCoordonatePolare()</Member>
+        <Member type="Method">public void MasaFirului()</Member>
+        <Member type="Method">public void CentrulDeMasaAFirului()</Member>
+        <Member type="Method">public void MomenteleInertiei()</Member>
+        <Member type="Method">public void AriaRegiuniiInadrateDeOCurbaInchisa()</Member>
+        <Member type="Method">public void VolumulSolidelorFormatPrinRotireaUneiCurbeInchise()</Member>
+        <Member type="Method">public void Forta()</Member>
+        <Member type="Method">public void AmperLaw()</Member>
+        <Member type="Method">public void FaradayLaw()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntegrareaSuprafetelor</Name>
+        <Access>Public</Access>
+        <Location left="180" top="1404" />
+        <Size width="162" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void SIOfVectorFieldOverSurface()</Member>
+        <Member type="Method">public void orientare()</Member>
+        <Member type="Method">public void SIOfScalarFunction()</Member>
+        <Member type="Method">public void TeoremaDivergenta()</Member>
+        <Member type="Method">public void TeoremaDivergentaInCoordonateForma()</Member>
+        <Member type="Method">public void StokeTheoreme()</Member>
+        <Member type="Method">public void StokeTheoremeInCoordinateForm()</Member>
+        <Member type="Method">public void AriaSuprafetei()</Member>
+        <Member type="Method">public void SuprafataParametrizataDeVector()</Member>
+        <Member type="Method">public void MasaSuprafetei()</Member>
+        <Member type="Method">public void CentrulDeMasaAShell()</Member>
+        <Member type="Method">public void MomenteDeInertie()</Member>
+        <Member type="Method">public void VolumSolidIncadratDeOSuprafataInchisa()</Member>
+        <Member type="Method">public void FortaGravitationala()</Member>
+        <Member type="Method">public void FortaDePresiune()</Member>
+        <Member type="Method">public void FLuxFLuid()</Member>
+        <Member type="Method">public void MassFlux()</Member>
+        <Member type="Method">public void SurfaceChange()</Member>
+        <Member type="Method">public void GaussLaw()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

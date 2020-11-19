@@ -1,0 +1,48 @@
+<Project>
+  <Name>CompusChimicProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>CompusChimic</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>ElementChimic</Name>
+        <Access>Public</Access>
+        <Location left="33" top="20" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">float MasaAtomica</Member>
+        <Member type="Field">float NumarAtomic</Member>
+        <Member type="Field">string Denumire</Member>
+        <Member type="Field">string Simbol</Member>
+        <Member type="Field">int NumarElectroni</Member>
+        <Member type="Field">int NumarProtoni</Member>
+        <Member type="Field">int NumarNeutroni</Member>
+        <Member type="Field">int Grupa</Member>
+        <Member type="Field">int Clasa</Member>
+        <Member type="Field">string Informatii</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ElementCompusChimic</Name>
+        <Access>Public</Access>
+        <Location left="217" top="20" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">float cantitate</Member>
+        <Member type="Field">ElementChimic elementulchimic</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CompusChimic</Name>
+        <Access>Public</Access>
+        <Location left="406" top="20" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; ElementCompusChimic &gt; ElementeleComponente</Member>
+        <Member type="Method">public float CalculeazaMasaMoleculara()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

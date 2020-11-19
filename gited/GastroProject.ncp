@@ -1,0 +1,82 @@
+<Project>
+  <Name>GastroProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Gastro</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="9" top="14" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Create()</Member>
+        <Member type="Event">public event EventHandler OnCantKeyPress</Member>
+        <Member type="Event">public event EventHandler OnAlimentKeyPress</Member>
+        <Member type="Method">public void cmdAdaugaClick()</Member>
+        <Member type="Method">public void cmdEliminaClick()</Member>
+        <Member type="Method">public void cmdReteteClick()</Member>
+        <Member type="Method">public void lstReteteClick()</Member>
+        <Member type="Method">public void cmdStopClick()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Gastro</Name>
+        <Access>Public</Access>
+        <Location left="183" top="14" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void EsteDisponibil()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Aliment</Name>
+        <Access>Public</Access>
+        <Location left="11" top="240" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string Denumire</Member>
+        <Member type="Field">string Informatii</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Reteta</Name>
+        <Access>Public</Access>
+        <Location left="183" top="240" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string Denumire</Member>
+        <Member type="Field">List &lt; continut &gt; listaContinut</Member>
+        <Member type="Field">Text ModDePreparare</Member>
+        <Member type="Field">float prettotal</Member>
+        <Member type="Field">Date data</Member>
+        <Member type="Field">string autor</Member>
+        <Member type="Field">string sursa</Member>
+        <Member type="Field">string alteInformatii</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>continut</Name>
+        <Access>Public</Access>
+        <Location left="10" top="472" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Aliment alimentul</Member>
+        <Member type="Field">float cantitate</Member>
+        <Member type="Field">string unitatedemasura</Member>
+        <Member type="Field">float pret</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Text</Name>
+        <Access>Public</Access>
+        <Location left="181" top="474" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;string &gt; textul</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

@@ -1,0 +1,148 @@
+<Project>
+  <Name>ProbabilitatiProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Probabilitati</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Combinatorica</Name>
+        <Access>Public</Access>
+        <Location left="14" top="15" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Permutare</Name>
+        <Access>Public</Access>
+        <Location left="43" top="95" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Factorial</Name>
+        <Access>Public</Access>
+        <Location left="85" top="173" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CoeficientiBinomiali</Name>
+        <Access>Public</Access>
+        <Location left="134" top="239" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriunghiPascal</Name>
+        <Access>Public</Access>
+        <Location left="178" top="359" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Eveniment</Name>
+        <Access>Public</Access>
+        <Location left="17" top="581" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Probabilitate</Name>
+        <Access>Public</Access>
+        <Location left="407" top="868" />
+        <Size width="162" height="655" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void ProbabilitateaUnuiEveniment()</Member>
+        <Member type="Method">public void IntervalDeValoriProbabile()</Member>
+        <Member type="Method">public void EvenimentCert()</Member>
+        <Member type="Method">public void EvenimentImpozibil()</Member>
+        <Member type="Method">public void Complement()</Member>
+        <Member type="Method">public void EvenimentIndependent()</Member>
+        <Member type="Method">public void RegulaDeAdunare()</Member>
+        <Member type="Method">public void RegulaDeMultiplicare()</Member>
+        <Member type="Method">public void RegulaGeneralaDeAdunare()</Member>
+        <Member type="Method">public void ProbabilitateConditionala()</Member>
+        <Member type="Method">public void LegeaProbabilitatiTotale()</Member>
+        <Member type="Method">public void Bayes()</Member>
+        <Member type="Method">public void LArgeNumber()</Member>
+        <Member type="Method">public void InegalitatiChebyshev()</Member>
+        <Member type="Method">public void DensitateaNormala()</Member>
+        <Member type="Method">public void DensitateaNormalaStandard()</Member>
+        <Member type="Method">public void ValuareaStandardZ()</Member>
+        <Member type="Method">public void DistributiaNormalaCumulativa()</Member>
+        <Member type="Method">public void DistributiaCumulativa()</Member>
+        <Member type="Method">public void ProcesulBernoulliDeTRiere()</Member>
+        <Member type="Method">public void DistributieBinomiala()</Member>
+        <Member type="Method">public void DistributieGeometrica()</Member>
+        <Member type="Method">public void DistributiePoisson()</Member>
+        <Member type="Method">public void Densitatea()</Member>
+        <Member type="Method">public void DensitateaUniformaContinua()</Member>
+        <Member type="Method">public void DensitateaExponentiala()</Member>
+        <Member type="Method">public void DistributiaExponentiala()</Member>
+        <Member type="Method">public void ValoareAsteptataAVariabileiRandomDiscrete()</Member>
+        <Member type="Method">public void InegalitatiMArkov()</Member>
+        <Member type="Method">public void DiscretRandomVariableVariance()</Member>
+        <Member type="Method">public void VarianceOfContinuousRandomVariable()</Member>
+        <Member type="Method">public void StandardDeviation()</Member>
+        <Member type="Method">public void Covarianta()</Member>
+        <Member type="Method">public void Corelatie()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Random</Name>
+        <Access>Public</Access>
+        <Location left="19" top="808" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Deviatie</Name>
+        <Access>Public</Access>
+        <Location left="184" top="841" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Densitate</Name>
+        <Access>Public</Access>
+        <Location left="23" top="1041" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ValoarePrezisa</Name>
+        <Access>Public</Access>
+        <Location left="198" top="1075" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Asteptare</Name>
+        <Access>Public</Access>
+        <Location left="29" top="1301" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Prezis</Name>
+        <Access>Public</Access>
+        <Location left="202" top="1309" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

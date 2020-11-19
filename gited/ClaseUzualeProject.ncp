@@ -1,0 +1,1315 @@
+<Project>
+  <Name>ClaseUzualeProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Vector</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Vector</Name>
+        <Access>Public</Access>
+        <Location left="11" top="24" />
+        <Size width="162" height="315" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Element&gt; ListaDeElemente</Member>
+        <Member type="Field">char Simbol</Member>
+        <Member type="Field">int Length</Member>
+        <Member type="Field">List &lt;TermenVector&gt; Coordonates</Member>
+        <Member type="Field">int Direction</Member>
+        <Member type="Field">int UnghiIntreDoiVectori</Member>
+        <Member type="Field">Properties Proprietati</Member>
+        <Member type="Method">public void Adunare()</Member>
+        <Member type="Method">public void Diferenta()</Member>
+        <Member type="Method">public void Scaling()</Member>
+        <Member type="Method">public void ProdusScalarOfVectors()</Member>
+        <Member type="Method">public void ProdusScalarInCoordonateForm()</Member>
+        <Member type="Method">public void Produs()</Member>
+        <Member type="Method">public void TripleProduct()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Element</Name>
+        <Access>Public</Access>
+        <Location left="186" top="25" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string valoare</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Array</Name>
+        <Access>Public</Access>
+        <Location left="366" top="38" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>UnitVector</Name>
+        <Access>Public</Access>
+        <Location left="250" top="217" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TermenVector</Name>
+        <Access>Public</Access>
+        <Location left="210" top="123" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Scalar</Name>
+        <Access>Public</Access>
+        <Location left="210" top="448" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void TripleProduct()</Member>
+        <Member type="Method">public void TripleProductInCoordonateForm()</Member>
+        <Member type="Method">public void VolumeOfParallelepiped()</Member>
+        <Member type="Method">public void VolumeOfPiramid()</Member>
+        <Member type="Method">public void LinearlyDependent()</Member>
+        <Member type="Method">public void LinearlyIndependent()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Properties</Name>
+        <Access>Public</Access>
+        <Location left="11" top="448" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Commutative()</Member>
+        <Member type="Method">public void Associative()</Member>
+        <Member type="Method">public void Distributivitate()</Member>
+        <Member type="Method">public void IsOrtogonal()</Member>
+        <Member type="Method">public void AreParallel()</Member>
+        <Member type="Method">public void Noncomutative()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Matrix</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Matrix</Name>
+        <Access>Public</Access>
+        <Location left="30" top="18" />
+        <Size width="162" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; List &lt; Element &gt;&gt; matricea</Member>
+        <Member type="Method">public void SarrusRule()</Member>
+        <Member type="Method">public void AreEquals()</Member>
+        <Member type="Method">public void Addition()</Member>
+        <Member type="Method">public void Substract()</Member>
+        <Member type="Method">public Matrix MatrixMultiplyWithScalar()</Member>
+        <Member type="Method">public void Multiplication()</Member>
+        <Member type="Method">public void Transpose()</Member>
+        <Member type="Method">public void Ortgohonal()</Member>
+        <Member type="Method">public void ProductTranspose()</Member>
+        <Member type="Method">public void Adjoint()</Member>
+        <Member type="Method">public void Trace()</Member>
+        <Member type="Method">public void Inverse()</Member>
+        <Member type="Method">public void ProductAtPRower()</Member>
+        <Member type="Method">public void Eigenvalue()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Determinant</Name>
+        <Access>Public</Access>
+        <Location left="202" top="18" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int Order</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Minor</Name>
+        <Access>Public</Access>
+        <Location left="206" top="248" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cofactor</Name>
+        <Access>Public</Access>
+        <Location left="33" top="359" />
+        <Size width="162" height="104" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Transpose</Name>
+        <Access>Public</Access>
+        <Location left="204" top="487" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Adjoint</Name>
+        <Access>Public</Access>
+        <Location left="33" top="486" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Trace</Name>
+        <Access>Public</Access>
+        <Location left="36" top="719" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Inverse</Name>
+        <Access>Public</Access>
+        <Location left="209" top="723" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LaplaceExpansion</Name>
+        <Access>Public</Access>
+        <Location left="42" top="955" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void OfNthDeterminant()</Member>
+        <Member type="Method">public void OfIthRow()</Member>
+        <Member type="Method">public void OfJntColumn()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PropertieOfDeterminant</Name>
+        <Access>Public</Access>
+        <Location left="218" top="957" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string value</Member>
+        <Member type="Field">string sign</Member>
+        <Member type="Method">public void Column2Row()</Member>
+        <Member type="Method">public void RowsInterchange()</Member>
+        <Member type="Method">public void TowsIdentical()</Member>
+        <Member type="Method">public void MultiplicationOfACommonFactor()</Member>
+        <Member type="Method">public void IncreasingOfElements()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SquareMatrix</Name>
+        <Access>Public</Access>
+        <Location left="33" top="1194" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Matrix DiagonalMatrix</Member>
+        <Member type="Field">Matrix UnitMatrix</Member>
+        <Member type="Field">Matrix NullMatrix</Member>
+        <Member type="Method">public bool IsSymetrical()</Member>
+        <Member type="Method">public bool IsSkeySymmetrical()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Natural</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Natural</Name>
+        <Access>Public</Access>
+        <Location left="18" top="28" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int valoare</Member>
+        <Member type="Field">char Simbol = N</Member>
+        <Member type="Method">public void Adunare()</Member>
+        <Member type="Method">public void Scadere()</Member>
+        <Member type="Method">public void Inmultire()</Member>
+        <Member type="Method">public void Impartire()</Member>
+        <Member type="Method">public void ePar()</Member>
+        <Member type="Method">public void eImpar()</Member>
+        <Member type="Method">public void ePrim()</Member>
+        <Member type="Method">public void eNegativ()</Member>
+        <Member type="Method">public void ePozitiv()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NaturalStrictPozitiv</Name>
+        <Access>Public</Access>
+        <Location left="192" top="28" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int valoare</Member>
+        <Member type="Field">char Simbol = N</Member>
+        <Member type="Method">public void Adunare()</Member>
+        <Member type="Method">public void Scadere()</Member>
+        <Member type="Method">public void Inmultire()</Member>
+        <Member type="Method">public void Impartire()</Member>
+        <Member type="Method">public void ePar()</Member>
+        <Member type="Method">public void eImpar()</Member>
+        <Member type="Method">public void ePrim()</Member>
+        <Member type="Method">public void eNegativ()</Member>
+        <Member type="Method">public void ePozitiv()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Numar</Name>
+        <Access>Public</Access>
+        <Location left="192" top="314" />
+        <Size width="162" height="315" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;char &gt; valoare</Member>
+        <Member type="Field">int MultiplicareCuInversul</Member>
+        <Member type="Method">public void AdunareCuZero()</Member>
+        <Member type="Method">public void AdunareCuInvers()</Member>
+        <Member type="Method">public void inversat()</Member>
+        <Member type="Method">public void ComutativitateAdunare()</Member>
+        <Member type="Method">public void AsociativitateAdunare()</Member>
+        <Member type="Method">public void Scadere()</Member>
+        <Member type="Method">public void MultiplicareCu1()</Member>
+        <Member type="Method">public void MultiplicareCu0()</Member>
+        <Member type="Method">public void ComutativitateaMultiplicarii()</Member>
+        <Member type="Method">public void ASociativitateaMultiplicarii()</Member>
+        <Member type="Method">public void Distributibitate()</Member>
+        <Member type="Method">public void Diviziune()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Rational</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Rational</Name>
+        <Access>Public</Access>
+        <Location left="34" top="25" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Intreg numitor</Member>
+        <Member type="Field">char Simbol = Q</Member>
+        <Member type="Field">Intreg numarator</Member>
+        <Member type="Method">public void Adunare()</Member>
+        <Member type="Method">public void Scadere()</Member>
+        <Member type="Method">public void Inmultire()</Member>
+        <Member type="Method">public void Impartire()</Member>
+        <Member type="Method">public void Simplificare()</Member>
+        <Member type="Method">public void Amplificare()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RationalStrictPozitiv</Name>
+        <Access>Public</Access>
+        <Location left="225" top="46" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RationalStrictNegativ</Name>
+        <Access>Public</Access>
+        <Location left="238" top="108" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Irational</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Irational</Name>
+        <Access>Public</Access>
+        <Location left="18" top="18" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">char Simbol = I</Member>
+        <Member type="Field">List &lt;char &gt; numarirational</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Intreg</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Intreg</Name>
+        <Access>Public</Access>
+        <Location left="24" top="22" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Natural parteIntreaga</Member>
+        <Member type="Field">Natural parteFractionara</Member>
+        <Member type="Field">char simbolDespartitor</Member>
+        <Member type="Field">char Simbol = Z</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntregStrictPozitiv</Name>
+        <Access>Public</Access>
+        <Location left="205" top="26" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntregStrictNegativ</Name>
+        <Access>Public</Access>
+        <Location left="218" top="88" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Real</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Real</Name>
+        <Access>Public</Access>
+        <Location left="10" top="13" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">char Simbol = R</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Complex</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Complex</Name>
+        <Access>Public</Access>
+        <Location left="10" top="17" />
+        <Size width="162" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">char Simbol = C</Member>
+        <Member type="Field">Real x</Member>
+        <Member type="Field">Imaginar i</Member>
+        <Member type="Field">Real y</Member>
+        <Member type="Field">int EulerC</Member>
+        <Member type="Method">public void ComplexNumar()</Member>
+        <Member type="Method">public void ParteaReala()</Member>
+        <Member type="Method">public void ParteaImaginara()</Member>
+        <Member type="Method">public void Modulo()</Member>
+        <Member type="Method">public void Argument()</Member>
+        <Member type="Method">public void Conjugatul()</Member>
+        <Member type="Method">public void ReprezentarePolaraC()</Member>
+        <Member type="Method">public void ProdusInReprezentarePolara()</Member>
+        <Member type="Method">public void ConjugatInReprezentarePolara()</Member>
+        <Member type="Method">public void InversulCInReprezentarePolara()</Member>
+        <Member type="Method">public void QuotientInReprezentarePolara()</Member>
+        <Member type="Method">public void PuteriC()</Member>
+        <Member type="Method">public void DeMoivre()</Member>
+        <Member type="Method">public void RadacinaNaC()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Imaginar</Name>
+        <Access>Public</Access>
+        <Location left="186" top="18" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">char Simbol = i</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PlanulxyAlNumerelorComplexe</Name>
+        <Access>Public</Access>
+        <Location left="185" top="247" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Line AxaReala</Member>
+        <Member type="Field">Line AxaImaginara</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Transcedental</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Transcedental</Name>
+        <Access>Public</Access>
+        <Location left="27" top="27" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">char Simbol = T</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Polinom</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Polinom</Name>
+        <Access>Public</Access>
+        <Location left="21" top="39" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; Termen &gt; polinom</Member>
+        <Member type="Method">public void Adunare()</Member>
+        <Member type="Method">public void Scadere()</Member>
+        <Member type="Method">public void Inmultire()</Member>
+        <Member type="Method">public void Impartire()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Termen</Name>
+        <Access>Public</Access>
+        <Location left="208" top="40" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Monom monom</Member>
+        <Member type="Field">string operatorul</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Monom</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Monom</Name>
+        <Access>Public</Access>
+        <Location left="52" top="22" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Numar coeficient</Member>
+        <Member type="Field">Necunoscuta necunoscuta</Member>
+        <Member type="Field">Numar grad</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Necunoscuta</Name>
+        <Access>Public</Access>
+        <Location left="230" top="25" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string litera</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>NLB</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Bits</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>UM</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>NumericSystem</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ExpressionEvaluator</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>FileExplorer</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Combinatorica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Calendar</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Ceas</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Agenda</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Editor</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Viewer</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Browser</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Painter</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>CAD</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Analiza</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Aritmetica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Matematica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Geometrie</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Trigonometrie</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Fizica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Chimie</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Grafica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Loto</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Pronostic</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>CatalogScolar</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Fractie</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Ecuatie</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Ecuatie</Name>
+        <Access>Public</Access>
+        <Location left="10" top="11" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Solutie</Name>
+        <Access>Public</Access>
+        <Location left="182" top="14" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EcuatieLinearaDeGradulI</Name>
+        <Access>Public</Access>
+        <Location left="26" top="83" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EcuatiePatratica</Name>
+        <Access>Public</Access>
+        <Location left="45" top="129" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Discriminant</Name>
+        <Access>Public</Access>
+        <Location left="68" top="185" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Viete</Name>
+        <Access>Public</Access>
+        <Location left="90" top="248" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EcuatieDeGradulII</Name>
+        <Access>Public</Access>
+        <Location left="112" top="315" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EcuatieCubica</Name>
+        <Access>Public</Access>
+        <Location left="130" top="373" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FormulaCardano</Name>
+        <Access>Public</Access>
+        <Location left="148" top="426" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Sistem</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>SistemTermen</Name>
+        <Access>Public</Access>
+        <Location left="11" top="15" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Number x</Member>
+        <Member type="Field">Number y</Member>
+        <Member type="Field">Number z</Member>
+        <Member type="Field">Real a</Member>
+        <Member type="Field">Real b</Member>
+        <Member type="Field">Real c</Member>
+        <Member type="Field">Real d</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Sistem</Name>
+        <Access>Public</Access>
+        <Location left="183" top="29" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EcuationSistem</Name>
+        <Access>Public</Access>
+        <Location left="183" top="198" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;SistemTermen &gt; ListaEcuatii</Member>
+        <Member type="Method">public RealPaire CramerRule()</Member>
+        <Member type="Method">public Matrix Determinant()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Ecuatie</Name>
+        <Access>Public</Access>
+        <Location left="11" top="198" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RealPaire</Name>
+        <Access>Public</Access>
+        <Location left="221" top="339" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Real realA</Member>
+        <Member type="Field">Real realB</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MatrixFormOfASystemOFLinearEquations</Name>
+        <Access>Public</Access>
+        <Location left="15" top="428" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int MatrixMultiplyArray</Member>
+        <Member type="Field">int InversMatrixMultiplyArray</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Sir</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Expresie</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Sortare</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Cautare</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Memorie</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Stack</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Liste</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Queue</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Tree</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Graph</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Greedy</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>DivideEtImpera</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Recursivitate</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Animatie</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>BazeDeDate</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Web</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Masina</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Electronica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Retele</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Magazin</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Harta</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Roman</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Cuneiform</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>AlgebraAvansata</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Inel</Name>
+        <Access>Public</Access>
+        <Location left="95" top="28" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Corp</Name>
+        <Access>Public</Access>
+        <Location left="274" top="31" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Grup</Name>
+        <Access>Public</Access>
+        <Location left="450" top="32" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Numar</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Numar</Name>
+        <Access>Public</Access>
+        <Location left="62" top="19" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>AnalizaGeometrica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Multime</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Multime</Name>
+        <Access>Public</Access>
+        <Location left="49" top="85" />
+        <Size width="162" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; ElementMultime &gt; elemente</Member>
+        <Member type="Field">List &lt; Proprietate &gt; proprietati</Member>
+        <Member type="Method">public void Complementare()</Member>
+        <Member type="Method">public void Reuniune()</Member>
+        <Member type="Method">public void Intersectie()</Member>
+        <Member type="Method">public void Diferenta()</Member>
+        <Member type="Method">public void ProdusCartezian()</Member>
+        <Member type="Method">public void Egale()</Member>
+        <Member type="Method">public void Exista()</Member>
+        <Member type="Method">public void Apartine()</Member>
+        <Member type="Method">public void NuApartine()</Member>
+        <Member type="Method">public void Count()</Member>
+        <Member type="Method">public void Sum()</Member>
+        <Member type="Method">public void Product()</Member>
+        <Member type="Method">public bool EsteVida()</Member>
+        <Member type="Method">public void Uniune()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MultimeVida</Name>
+        <Access>Public</Access>
+        <Location left="20" top="22" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ElementMultime</Name>
+        <Access>Public</Access>
+        <Location left="242" top="33" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string valoare</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Proprietate</Name>
+        <Access>Public</Access>
+        <Location left="410" top="35" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Comutativitate()</Member>
+        <Member type="Method">public void Asociativitate()</Member>
+        <Member type="Method">public void Intersectie()</Member>
+        <Member type="Method">public void Distributivitate()</Member>
+        <Member type="Method">public void Domination()</Member>
+        <Member type="Method">public void Identity()</Member>
+        <Member type="Method">public void Idempotenta()</Member>
+        <Member type="Method">public void Complement()</Member>
+        <Member type="Method">public void DeMorganLaw()</Member>
+        <Member type="Method">public void Diferenta()</Member>
+        <Member type="Method">public void Complementare()</Member>
+        <Member type="Method">public void Intersectate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>just for count</Text>
+        <Location left="413" top="325" />
+        <Size width="160" height="75" />
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Algebra</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Factorizare</Name>
+        <Access>Public</Access>
+        <Location left="10" top="244" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Factorizare()</Member>
+        <Member type="Method">public void FactorizarePare()</Member>
+        <Member type="Method">public void FactorizareImpare()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Binom</Name>
+        <Access>Public</Access>
+        <Location left="195" top="11" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Termen &gt; Coeficienti</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Putere</Name>
+        <Access>Public</Access>
+        <Location left="226" top="378" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void PuteriInmultire()</Member>
+        <Member type="Method">public void PuteriImpartire()</Member>
+        <Member type="Method">public void ProdusRidicatLaPutere()</Member>
+        <Member type="Method">public void DifrentaLaPutere()</Member>
+        <Member type="Method">public void PutereLaPuterea()</Member>
+        <Member type="Method">public void XLaPuterea0()</Member>
+        <Member type="Method">public void XLaPuterea1()</Member>
+        <Member type="Method">public void XLaPutereNegativa()</Member>
+        <Member type="Method">public void XLaPutereaFractie()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Algebra</Name>
+        <Access>Public</Access>
+        <Location left="12" top="11" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Produs</Name>
+        <Access>Public</Access>
+        <Location left="209" top="308" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Radacina</Name>
+        <Access>Public</Access>
+        <Location left="12" top="471" />
+        <Size width="162" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Termeni&gt; TermeniSubRadical</Member>
+        <Member type="Field">Termen Ordin</Member>
+        <Member type="Method">public void RadicalDeProdus()</Member>
+        <Member type="Method">public void ProdusDeRadicali()</Member>
+        <Member type="Method">public void DiferentaSubRadical()</Member>
+        <Member type="Method">public void DiferentaDeRadicali()</Member>
+        <Member type="Method">public void RadicalRidicatLaPutereDePutere()</Member>
+        <Member type="Method">public void RadicalRidcatLaPutere()</Member>
+        <Member type="Method">public void RadicalDeOrdinNDeXLaPutereaM()</Member>
+        <Member type="Method">public void RadicalDeOrdinulMDeRadicalDinOrdinulN()</Member>
+        <Member type="Method">public void RadicalLaPutere()</Member>
+        <Member type="Method">public void RadicalDeXAdunatcuRadical()</Member>
+        <Member type="Method">public void UnuPerRadical()</Member>
+        <Member type="Method">public void UnuPeSumaDeRadicali()</Member>
+        <Member type="Method">public void LogX()</Member>
+        <Member type="Method">public void LnX()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Logaritm</Name>
+        <Access>Public</Access>
+        <Location left="192" top="622" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Termen Ordin</Member>
+        <Member type="Field">List &lt;Termen &gt; TermeniiLogaritmului</Member>
+        <Member type="Method">public void LogA1()</Member>
+        <Member type="Method">public void LogAA()</Member>
+        <Member type="Method">public void LogA0()</Member>
+        <Member type="Method">public void LogAProdus()</Member>
+        <Member type="Method">public void LogADiferenta()</Member>
+        <Member type="Method">public void LogAPutere()</Member>
+        <Member type="Method">public void LogARadicalDeOrdinulN()</Member>
+        <Member type="Method">public void LogAX()</Member>
+        <Member type="Method">public void LogAC()</Member>
+        <Member type="Method">public void X()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Logaritm10</Name>
+        <Access>Public</Access>
+        <Location left="192" top="927" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LN</Name>
+        <Access>Public</Access>
+        <Location left="226" top="997" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Limita</Name>
+        <Access>Public</Access>
+        <Location left="259" top="1042" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Comparatii</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Comparatie</Name>
+        <Access>Public</Access>
+        <Location left="12" top="22" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Inegalitati</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Inegalitate</Name>
+        <Access>Public</Access>
+        <Location left="11" top="20" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void MaiMic()</Member>
+        <Member type="Method">public void Egal()</Member>
+        <Member type="Method">public void MaiMare()</Member>
+        <Member type="Method">public void MaiMareSauEgal()</Member>
+        <Member type="Method">public void MaiMicSauEgal()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Interval</Name>
+        <Access>Public</Access>
+        <Location left="184" top="21" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Economie</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>DobandaLaDepunere</Name>
+        <Access>Public</Access>
+        <Location left="26" top="22" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Numar ValoareViitoare</Member>
+        <Member type="Field">Numar DepozitInitial</Member>
+        <Member type="Field">Numar RataDobanziiAnuale</Member>
+        <Member type="Field">Numar NumarulDeAniInvestiti</Member>
+        <Member type="Field">Numar NumarulDeCastiguriPeAn</Member>
+        <Member type="Method">public void CalculeazaDobandaLaDepunere()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DobandaLaDepunereSimplificata</Name>
+        <Access>Public</Access>
+        <Location left="31" top="227" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Calculeaza()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DobandaAnualaContinua</Name>
+        <Access>Public</Access>
+        <Location left="52" top="325" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Calculeaza()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Probabilitati</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Statistica</Name>
+    <Language>CSharp</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+</Project>

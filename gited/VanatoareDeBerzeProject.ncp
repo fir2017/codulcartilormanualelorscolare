@@ -1,0 +1,26 @@
+<Project>
+  <Name>VanatoareDeBerzeProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>VanatoareDeBerze</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="10" top="17" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; Image &gt; ImaginiBerze</Member>
+        <Member type="Field">List &lt; Timer &gt; ArrayCronometre</Member>
+        <Member type="Field">int punctaj</Member>
+        <Member type="Method">public void load()</Member>
+        <Member type="Method">public void timpfocTimer()</Member>
+        <Member type="Method">public void AfiseazaPusca()</Member>
+        <Member type="Event">public event EventHandler OnKeyDown</Member>
+        <Member type="Method">public void OnTimer()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

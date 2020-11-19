@@ -1,0 +1,60 @@
+<Project>
+  <Name>GraficaSuprafeteProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>GraficaSuprafete</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="10" top="17" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Image Image1</Member>
+        <Member type="Field">List &lt;Button&gt; Buttons</Member>
+        <Member type="Field">List &lt;ButtonClick&gt; Clicks</Member>
+        <Member type="Method">public void Create()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Grafic</Name>
+        <Access>Public</Access>
+        <Location left="188" top="19" />
+        <Size width="162" height="587" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int nx</Member>
+        <Member type="Field">int ny</Member>
+        <Member type="Field">int pas</Member>
+        <Member type="Field">int a</Member>
+        <Member type="Field">int b</Member>
+        <Member type="Field">int c</Member>
+        <Member type="Field">int d</Member>
+        <Member type="Field">int dy</Member>
+        <Member type="Field">Real x</Member>
+        <Member type="Field">Real y</Member>
+        <Member type="Field">Real z</Member>
+        <Member type="Field">Real ux</Member>
+        <Member type="Field">Real uy</Member>
+        <Member type="Field">List &lt; Real &gt; xx</Member>
+        <Member type="Field">List &lt;Real&gt; yy</Member>
+        <Member type="Field">int alfa</Member>
+        <Member type="Field">int beta</Member>
+        <Member type="Field">int gama</Member>
+        <Member type="Field">Real al</Member>
+        <Member type="Field">Real be</Member>
+        <Member type="Field">Real ga</Member>
+        <Member type="Field">Real c1</Member>
+        <Member type="Field">Real c2</Member>
+        <Member type="Field">Real c3</Member>
+        <Member type="Field">Real s1</Member>
+        <Member type="Field">Real s2</Member>
+        <Member type="Field">Real s3</Member>
+        <Member type="Method">public void f()</Member>
+        <Member type="Method">public void radiani()</Member>
+        <Member type="Method">public void ReprezentareSuprafata()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

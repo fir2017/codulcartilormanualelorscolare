@@ -1,0 +1,35 @@
+<Project>
+  <Name>PrindeMusteProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>PrindeMuste</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="15" top="33" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">MMControl Sunet</Member>
+        <Member type="Field">Image Imagine1</Member>
+        <Member type="Field">Timer Timer1</Member>
+        <Member type="Field">Timer Timer2</Member>
+        <Member type="Method">public void Load()</Member>
+        <Member type="Method">public void Image1Click()</Member>
+        <Member type="Method">public void Timer1Timer()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Joc</Name>
+        <Access>Public</Access>
+        <Location left="187" top="34" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int scor</Member>
+        <Member type="Field">int timp</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

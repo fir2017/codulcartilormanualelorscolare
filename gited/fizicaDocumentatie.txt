@@ -1,0 +1,975 @@
+
+fizica 
+
+
+clasa 6
+
+cap 1 introducere
+cap 2 corp, substanta, proprietati, fenomen fizica
+cap 3 fenomene fizice
+
+2.1 corp
+ substanta
+ proprietati
+2.2 proprietati fizice masurabile.
+ marimi fizice
+2.3 fenomen fizica
+
+3.1 fenomen mecanic
+miscarea mecanica a corpurilor
+inertia 
+masa 
+densitate 
+deformare corpuri 
+greutate corpuri 
+
+3.2 fenomene termice 
+incalzire 
+racire
+dilatatie 
+evaporare 
+condensare fierbere 
+topire 
+solidificare 
+3.3 fenomene electrice si magnetice 
+electrizarea 
+magnetizarea 
+curentul electric
+efectele curentului electric 
+
+3.4 fenomene optice 
+surse de lumina 
+corp transparent  
+corp opac 
+propagare rectilinie a luminii 
+fasciul luminos 
+raza de lumina 
+viteza de propagare 
+fenomen de relfezie 
+legea ungiurilor 
+oglinzi plane 
+oglinzi sferice 
+fenomen de refractie  
+indice de refractie 
+refractia luminii printro lama cu fete plane si paralele 
+refractia luminii printro prisma optica 
+culoarea corpurilor 
+refractia luminii prin lentile 
+
+
+
+
+clasa 7
+
+cap 1 obiectul
+metodele fizicii 
+fizica stiinta a naturii 
+metode de lucru 
+metoda experiment stiintific 
+merime fizica
+unitate de masura
+fenomen fizic
+lege fizica 
+
+cap 2
+procese mecanice 
+marimi mecanice 
+echilibrul mecanic 
+forta 
+efectele interactiunii 
+forta marime vectoriala 
+compunerea fortelor concurente
+tipuri de forte 
+principiul actiunilor reciproce 
+lucrul mecanic 
+energia mecanica 
+miscarea mecanicadeplasarea 
+lucrul mecanic 
+puterea mecanica 
+mecanisme simple 
+randamentul mecanic
+energia mecanica 
+marime de stare 
+conservarea energiei mecanice 
+echilibrul mecanil al solidului
+momentul fortei 
+conditii de echilibru 
+cuplul de forte 
+centrul de forte 
+centrul de greutate 
+echilibrul corpurilor sub actiunea greutatii
+
+echilibrul mecanic al fluidului
+presiunea 
+unitati de masura ale presiunii
+presiunea hidrostatica 
+vase comunicante 
+legea lui pascal 
+blaise pascal 
+presiunea atmosferica
+
+echilibru corpurilor scufundate in fluid 
+legea lui arhimede 
+aplicatii arhimede 
+
+pompe pentru gaze 
+pompe pentru lichide 
+
+echilibru termic 
+temperatura 
+starea de incalzire 
+contact termic 
+echilibrul termic
+izolarea termica 
+tranzitivitatea echilibrului termic 
+temperatura
+termometrul 
+scari de temperatura 
+
+cap 4
+procese termodinamice 
+caldura 
+caldura specifica
+calorimetrie
+transformarea lucrlui mecanic in caldura 
+transformarea izobara si izocora la gaze 
+energia interna 
+schimbul de energie prin lucrul mecanic si caldura 
+combistibili 
+caldura si rezervele de combustibili 
+motoare termice 
+randament 
+forme de propagare a caldurii
+condcutie 
+convectia 
+radiatia termica 
+
+cap 5
+star ide agregare ale substantei 
+structura substantei 
+structura atomo moleculara
+caracterisitci ale structurii atomo moleculare
+proprietati fizice generale ale substantelor 
+faza gazoasa
+faza lichida 
+proprietatile corpurilro solide 
+transforamri de stare de agregare 
+transforamr ide stare si legi specifice
+caldura latenta 
+explicarea cinetico moleculara a transformari starilor de agregare 
+
+rezumat 
+intrebari 
+exercitii
+probleme 
+raspunsuri 
+cuprins 
+
+
+carte 
+manual
+
+
+fizica 8
+
+introducere
+electrizarea corpurilor 
+prin frecare 
+contact
+influenta
+codncutor 
+izolator 
+sarcina electrica 
+sarcina electrica elementara 
+electron 
+
+interactiunea sarcinilor electrice 
+legea lui coulomb 
+camp electric 
+intensitatea campului electric 
+potential electric 
+fenomene electrice in atmosfera
+fulgerul 
+paratraznetul 
+
+curetul electric 
+reteaua electrica 
+producerea curentului electric 
+generator de energie electrice 
+tipuri de generatoare 
+efectele curentului electrc 
+intensitatea curentului electric 
+masurarea pri nefect 
+unitatea de masura 
+tensiuena electrica 
+masurarea tensiunii
+unitat de masura 
+tensiunea electromotoare 
+rezistenta electrica
+masurarea rezistentei 
+tipuri de rezistoare 
+legea lui ohm 
+lege elui joule 
+aplicatie 
+energia si puterea electrica 
+unitati pt eneria is puetrea electrica 
+elementele unui retele electrice 
+legile kirchhoff
+gruparea rezistoarelor 
+gruparea generatoarelor electrice 
+
+curentul electric in electroliti 
+disociatia electrolitica 
+electroliza 
+aplicatii electroliza 
+
+camp magnetic 
+magnet 
+magnetizare 
+actiunea rciproca dintre magneti
+experimentul lui oersted 
+campul magnetic 
+electromagnetii
+aplicatii cu electromagneti
+interactiune dintre un cam magnetic si un curent electric 
+indcutia magnetica 
+interactiunea dintre doua circuite parcurse de curentu electrici 
+aplicatii ale interactiunilor electromagnetice
+
+inductia electromagnetica
+fluz magnetic 
+inductia electromagnetica intun circuit 
+experiment lui farada 
+sensul curentului electric de inductie 
+regula lui lenz 
+curentul indus intro spira care se roteste intrun camp magnetic 
+generatorul electric de curent alternativ 
+alternatorul 
+alcatuirea si functionarea dianmului 
+producerea s transportul energiei electrice la distanta 
+transformatorul 
+
+notiunea de optica geometrica
+propagarea luminiireflexia luminiioglinzi plane 
+oglinzi sferice 
+refractia luminii
+dispersia luminii 
+culoarea corupurilor 
+instrumente optice 
+
+
+fizica 9
+
+cap 1
+miscarea si repausul
+sistem de referinta
+pucnt material 
+traiectorie
+coordonate
+legea miscarii 
+vector de pozitie 
+deplasarea 
+marimi vectoriale 
+viteza 
+aceleratia
+clasificarea miscarilor punctului material 
+relativitatea miscrilor mecanice 
+compunerea msicarilor 
+reprezentarea garfica a legii msicarii 
+
+
+cap 2
+principiile mecanicii newtoniene 
+
+principiul inertiei 
+sistem de referinat inertiale 
+principiul fundamental al dinamicii
+principiul actiunilor reciproce 
+principiul suprapunerii fortelor 
+principiul relativitatii in mecanica newtoniana
+
+cap 3
+miscarea pucntului material sub actiunea unor tipuri de forte 
+miscarea rectilinie uniforma 
+miscarea rectilinie uniforma variata
+miscarea corpurilor sub actiunea greutatii
+forte de frecare
+miscarea circulara uniforma
+forte elastice 
+legea atractiei universala a lui newton 
+camp gravitational 
+masa gravifica
+relatie dintre masa gravifica si masa inertiala 
+sateliti artificiali
+
+cap 4
+energia mecanic a punctului material si a sistemului de puncte materiale
+
+lucrul mecanic efectuat la miscarea punctului material intrun camp de forte 
+energia cinetica
+teorema variatiei energiei cinetice a punctului material 
+energia potentiala a pucntului material in camp conservativ de forte 
+eneegia mecanica a punctului material in camp conservativ de forte 
+conservarea energiei mecanice 
+sistem de pucnte materiale 
+foarte interne si forte externe 
+
+cap 5
+impuls mecanic 
+teorema impulsului pentru punctul material 
+conservarea impulsului
+teorema impulsului si legea conservari impulsului pentru un sistem de doua particule 
+teorema impulsului 
+leagea conservarii impulsului pentru un sistem oarecare de particule 
+centrul de masa al unui siste mde doua particule 
+cntrul de masa al unui siste moarecare de aprticue 
+ciocniri
+
+cap 6
+
+moment cineticamomentul fortei 
+momentul cinetic al punctului matelrial 
+teorema momentului cinetic pentru punctul material 
+conservarea momentulu iconetic 
+teorema momentului cinetic total al unui sistem mecanic 
+conservarea momentului cinetic total 
+
+cap 7
+cinematica 
+dinamica rigidului 
+notiuena de rigid 
+viteza si aceleratia unghiulara 
+energia cinetica de rotatie 
+momentul de inertie al unui rigid 
+legile cinematicii
+ dinamica solidului rigd 
+ 
+ 
+ cap 8
+ echilibrul mecanic la corpurilor
+ siste de forte concurente 
+ rezultanta 
+ miscarea de translatie 
+ compuenrea fortelor paralele 
+ cpulul de forte 
+ miscarea de rotatie 
+ centrul de greutate 
+ echilibrul mecanic 
+ conditii de echilibru 
+ echilibrul in camp gravitational 
+ echilibru si neegie potentiala 
+ 
+ cap 9
+ mecanica fluidelor 
+ straea fluida 
+ notiuena de presiune 
+ statica fluidelor 
+ hidrostatica 
+ aerostatica 
+ dinamica fluidelor 
+ 
+ cpa 10 
+ unde elastice 
+ notiuena de acustica 
+ 
+ oscilatorul liniar armonic 
+ compunerea oscilatiilor 
+ pendulul gravitational 
+ rezonanta 
+ propagarea miscarii oscialtoriului 
+ unde ransversale , unde longitudinale 
+ viteza de propagare
+ ecuatia undei plane 
+ clasificarea undelor elastice dupa frecventa 
+ conditii de audibilitate a oscilatiilro elastice 
+ reflexia si refractia undelor 
+ difractia 
+ interferenta 
+ unde stationare 
+ coarde si tuburi sonore 
+ 
+ 
+ 
+
+fizica clasa 10
+
+fenomene termice 
+cap 1
+structura discontinua a substantei 
+principiul legi care doveedeste structura discontinua a subtantei
+experimente care evidentiaza miscarea moleculelor 
+unele marimi legate de structura discreta a substantei 
+fenomene termice
+metode de studio al fenomenelor termice 
+cap 2
+notiui termodinamice de baza
+sistem termodinamic 
+starea sistemului termodinamic
+sistem termodinamic 
+starea sistem termodinamic 
+parametrii de stare 
+starea de echilibru termodinamic 
+transformari de stare 
+procese reversibile si ireversibile 
+lucrul mecanic , energia interna si caldura 
+lucrul mecanic in termodinamica 
+lucrul mecanic intro transfromare reversibila
+interpretarea geometrica a lucrului mecanic 
+dependenta lucrului emcanic de transformare 
+lucrul mecanic intro transformare ireversibila 
+energia interna 
+lucrul mecanic si energia interna intro transofmrare adiabatica 
+caldura 
+temperatura 
+contactul ermic intr esisteme termodinamice 
+echilibrul termic 
+principiul tranzitivitatii echilibrului termic 
+temperatura 
+ecuatii de stare 
+masurarea temperaturii 
+scara celsius 
+dispozitive pentru masurarea temperaturii 
+legile gazului ideal 
+legea boyle mariotte 
+legea gay lussac 
+legea lui charles
+ecuatia clpeyron mendeleev
+scara de temperatura a gazului ideal 
+scara termodina de temperatura 
+energia interna a gazului ideal 
+
+cap 3
+principiile termodinamicii
+legea conservarii si transformarii energiei in procesele mecanice si termice 
+aplciatii ale primului principiu al termodinamiciicoeficienti calorici 
+relatia kui robert mayer 
+transforamri simple ale gazului ideal
+masurari calorimetrice
+principiul al doilea al termodinamiciilucrul mecanic si caldura in transforamri ciclice
+principiul al doilea al termodinamicii in formularea lu iw thomson 
+lucrul mecanic intro transformare ciclica biterma 
+formularea lui r clausius
+echiv form lui thomson so clusius ale pr 2 a ltd 
+masini termice 
+cicluc carnot 
+tipuri de motoare termice 
+entropria 
+
+cap 4
+teoria cinetico moelculara
+sutdiul gazului ideal 
+haosul moelcular si legile statistice 
+modelul gazului ideal 
+formula fundamentala a teoriei cinetico moelculare 
+interpretarea cientico moleculara a temperaturii 
+grade de libertate 
+teorema echipartitiei energiei 
+grade libertate
+molecula diatomica 
+teorema echiparittiei energiei 
+energia interna a gazulu iideal monoatomic 
+ecuatia termica de stare a gazului ideal 
+
+
+
+ Energize interna a gazului ideal monoatomic 
+ Ecuatia termica de stare a gazului ideal 
+Ecuatia calorica de stare a gazului ideal monoatomic 
+Viteza termicii 
+Energize internal a gazului ideal diatomic 
+Forlele intermoleculare 
+Models cinetico-moleculare 
+
+cap 5 
+Structura lichidelor. Miscarea 
+termica in lichide 
+ Dilatarea lichidelor 
+ Fenomene superficiale 
+ Fenomene de suprafata
+ Fenomene Capilare 
+ 
+Capitolul 6
+Structura corpurilor solide 
+ Structurer solidelor 
+ Miscarea termica in solide
+ Dilatarea 
+
+
+
+
+Capitolul 7.
+ Trnasformari do faza 
+Izotermele lui Andrews. Stare 
+critical. Lichefierea gazelor 
+ Masini de lichelliat gaze. 
+Frigiderul 
+ Vaporizarea si conden- 
+sarea. Diagram de 
+stare 
+ Topirea si solidificarea 
+Sublimarf a Si desublimarea 
+ Starea tripla a substantei 
+ Variatia de entronie in trans- 
+formarile de faza 
+
+
+
+
+
+P a r t e a a d o w n 
+
+
+
+FENOMENE ELECTRICE 
+S1 MAGNETICE 
+Capitolul 8.
+
+ Cimpul electrostatic 
+ Interactiunea electrica, Intensitatea campului electric 
+
+ Sarcina electrics 
+ Legea lui Coulomb 
+ Intensitatea campului electric 
+ Fluxul intensitatii campului electric 
+ teorema lui gauss 
+ Potentialul electric 
+ Conductor izolat in 
+camp electrostatic 
+ Aplicagii ale teoremei 
+lu1 GauSS
+ Capacitatea elentrica a 
+unui conductor izolat 
+ capacitatea conden- 
+satorului plan  
+ Gruparea condensa- 
+toriior 
+Dielectrici in camp
+electric 
+
+Energia cimpului elec- 
+tr1c dintre armaturile 
+unui condensator 
+
+cap 9
+
+
+ Curentul electric stationar 
+
+ Curentul electric in conductori metalici 
+ Circuitul electric 
+ Intensitatea curentului 
+electric 
+ Legile circuitului electric 
+ Tensiunea electrics. 
+Tensiunea electromo- 
+toare 
+Rezistenta.Rezistivita- 
+tatea 
+ Legea lui Ohm 
+ Reostate 
+ Legile lui Kirchhoff 
+gruparea rezistorilor
+energia si puterea curentului electric
+ Disociatia electrolitica 
+electroliza si legile ei
+aplicatii 
+
+ 
+
+ 
+Cnpitclul 10
+ Cimpul magnetic al curentului electric 
+
+ Cimpul magnetic 
+ Actiunea cimpului magnetic 
+asupra curentului electric. 
+Induction cimpului magnetic 
+flux magnetic
+Cimpul magnetic al unor cu- 
+renti electric stationari -. 
+ Interactiunea rnagneticil a 
+curentilor electric 
+Amperul 
+forta lorentz
+Miscarea purtatorilor de sarcina electrics in cimp electric 
+
+
+capitolul 11
+ Induction electromag- 
+
+
+ Fenomenul de inductie elec- 
+tromalgnetica 
+ Sensu curentuluielectricin- 
+dus  
+ Legea inductiei electromag- 
+netice
+ Autoinductia 
+ Inductanta unui circuit 
+Cuplajul inductiv a doua cir- 
+cuite electrice. Inductanlé 
+mutuals  
+ Energia cimpului magnetic 
+ Proprietalile magnetics ale 
+substantei. 
+Aplicatii 
+
+
+
+
+Capitolul 12
+ Curentul alternativ 
+ Generarea tensiunii electro- 
+motoare (t.e.m.) alternative 
+ Interpretare electro- 
+nica 
+ Valoarea efectiva a intensi- 
+tatii curentului si tensiunii 
+alternative 
+
+
+
+
+fizica clasa 11
+
+curent alternativ 
+circuit de curent alternativ 
+comparatie cu circuit de curen continuu
+osciloscopul electronic folosit in studiul circuitelor de curen alternativ 
+rezistorul in curent alternativ 
+circuit serie cu rezsitor si bobina in curent alternativ 
+circuit serie cu rezsitor si condensator in curent alternativ
+circuit serie cu rezistenta , bobina si condensator i ncurent alternativ 
+circuit rlc serie 
+rezonanta circuitului serie rlc 
+circuit paralel rlc in curent altenativ 
+puetrea in curent alternativ 
+
+masini elctrice rotative 
+clasificarea masinilor electrice 
+producerea curentului alternativ monofazat
+alternatorulsistemul trifazat 
+alternatorul trifazat
+reversibilitatea masinilor sincrone 
+motorul sncron 
+masina electrica sincrona 
+motorul asincron 
+masini de curent continuu 
+generator de curent continuu
+reversibilitatea masinilor electrice de curent continuu
+principiul de functionarea si marimile caracteristice ale motorului de curent continuu
+
+transformatorul 
+principiul transformatorul
+constrcutia si functionarea tr monofazat 
+randamentul transformatorului
+experimente cu transformatoare 
+
+elemente de circuit neliniare 
+notiuni intro 
+dioda 
+carac 
+param 
+redresare curent alt 
+trioda 
+amplificarea 
+tetroda 
+pentoda 
+semiconductoare 
+purtatori de sarcina in semiconductoare 
+semiconductori cu impuritati
+conductivitatea electrica a unui semiconductor cu impuritati 
+jonctiuena pn
+dioda semiconductoare 
+redresarea cu diode semiconductoare 
+tranzistorul
+perspectivele tuburilor electronice in epoca dispozitivelor semiconductoare si a ci 
+
+oscilatii electromagnetice 
+
+circuit oscilant 
+rezonanta 
+trioda si tb in montaje generatoare de oscilatii intretinute 
+
+unde em 
+camp em 
+propag camp em 
+udna em 
+produc unde em 
+clasif unde em 
+emisia, propag, si receptia unde em de radiofr 
+radio locatia si radioastronomia 
+
+optica 
+natura em a luminii 
+marimi si un de energie si fotometrie 
+det vitezei luminiiinterferenta luminii 
+difractia luminii 
+refelxia si refractia 
+dispersia absorbtia 
+polarizarea 
+optica geometrica
+instr optice 
+
+
+notiuni de teoria relativitatii restranse 
+
+bazele exper ale teor relat restranse 
+postulat lui eistean
+consecinte 
+transf lorentz 
+cinematica si dinamica relativista 
+
+
+fizica prelucrarea datelor clasa 11
+
+sistem de unitati 
+si 
+marime fizica 
+um 
+formula 
+coef parazit
+si 
+si fundamentale 
+si deivate 
+si suplimentare 
+alte unitati 
+multiplii si submultiplii al si 
+analiza dim si formule fizice 
+const fizice fundamentale 
+
+marimi aproximative 
+repr date prin tabele 
+erori marime aprox 
+reguli de rotunji a nr 
+stabil nr de cifre exacta 
+erori rez in ruam efe unor op mat cu nr aprox 
+add dif mult div pow sqrt k cu aprox 
+repr date prin tabele 
+interpolare 
+caz arg cu pas ct  si var cu pas ct 
+extrapolare 
+
+repre date prim grafice 
+
+avantaje ale repr dat rpin grafice 
+grf calitatice si cantitative 
+unele indicatii pricind repr datlor prin grafice 
+scari functionale 
+
+repr date pri ncorelatii
+formule rationale si empirice 
+aleg forma adecvata pentru o formual empirica 
+eval ct 
+concord une ifct empirice cu un sir de date 
+
+metode si mijloace de masurare 
+metode de mas 
+mij de mas 
+clasij dupa complex 
+clas dupa sarcina lor in cadrul unei instal de mas 
+clasif mij de mas dupa forma semnalului 
+elem de indicatii ale mij de masura 
+noitiuni metro pivinf indicatiile mij de mas 
+
+
+indotrud in teoria erorilor de mas 
+erori de mas ale mij de mas 
+clas erori de mas 
+eorir sistematice 
+unele proc de elim a eor sistematice 
+eroir intamplatoare 
+pro perori intamplatoare 
+densit de reaparitie gaussesimarea val aadev x0 
+erori aparente 
+rel dintr eindice de precizie h si eroare medei patratica 
+functia de repartitie 
+nivel de incredere 
+interva de incerdere 
+concluzii practice privind erori intamplatoare in cazul efect unu iset de mas directe in aceleasi conditii 
+copar val medii 
+mas indirecte 
+legea de comp a erorilor 
+
+metoda celor mai mici patrate 
+linia dr ce trece prin orginea coordonatelor 
+linia dr 
+caz geenrala
+
+
+
+fizica clasa 12 
+
+elemente de fizica quantica 
+
+fen fiz in care se manifesta aspectul corpuscular al luminii 
+efect fotoelectric extern 
+def si legi efect fotoelectric extern 
+cuante de energie 
+fotoni 
+explic legi efect fotoelectric extern 
+aplic efect fotoelectric extern 
+aplic ale disp optoelectronice 
+efect compton
+def 
+var lungimi de unda a fotonului 
+eletronul de recul 
+
+electronul 
+sarcina el 
+sarcina specifica 
+fenomen care au condus la descoperirea electronului 
+det sarcinii specificae a electronului din devierea in camp electric si magnetic 
+mas directa a sarcinii electrice elemntare 
+
+fen fizic in care se manifesta aspectul odnulatoriu al microparticulelor
+ipoteza lui bloglie asupra prop ondulatorii ale particulelor 
+dovezi experim 
+difgractia electr 
+aplic 
+microscop electronic 
+interpret statica a dualismului unda corpuscul 
+
+fizica atomului 
+spectre atomice 
+serii spectrale
+analiza spectrala
+structura atomului
+ raza 
+  sarcina el interioara 
+  exp rutherford 
+  model planetar
+  model cuantificat 
+  fen de excitare si ionizare a atomilor 
+  numere cuantice 
+  atomul cu mai mult ielectroni 
+  radiati x 
+  tranztii spontane si induse 
+  efectul laser 
+  probail de tranztiti ale sis cuantice 
+  emisia spontna , emisia indusa 
+  inversarea populatiilor , temp absolut negativa 
+  bilantul puterilro i nmediu lactiv laser 
+  laserul cu cristal de rubiu
+  prop radiatiei laser 
+  
+  elemente de fizica solidului 
+  leg cristalina 
+  vande waals 
+  ionica 
+  covalenta
+  metalica
+  
+  struct cristalina a corp slid 
+  clasif cor solid dupa structura 
+  tip de retele cristaline 
+  det str criatl prin difractia de raze x
+  difractia ca metoda de analiza a str cristaline
+  cond de difractie dupa bragg 
+  det const retele cistal prin difractie razelor x 
+  
+  str de benz a nergiei elec in solide 
+  metale 
+  smiconductori 
+  dielectrici 
+  stari energ ale elec in cristal 
+  banda de cond si banda de valenta 
+  clasif corp solid in metale , semicond , dielectrici 
+  
+  conducia eletcirca a semicond 
+  elec de conductie 
+  elec si gol 
+  impuritati donoare si acceptoare 
+  concentratia purtatorilro de sarcina 
+  apram materialelor semiconductoare 
+  
+  fotocondtuctia semicond 
+  purt de sarc de neechilibru 
+  depnd de iluminare a cnduc elec a smicond 
+  efect fotovoltaic in j pn 
+  proc fizice in jpn 
+  caract curent teniune a nui fotoelement 
+  aplcia ale foto elementelor 
+  
+  fizica nucelului
+  particule elementare 
+  
+  prop gen ale nucleu atomic 
+  sarcina nucelu atomic 
+  nr atomic 
+  dim nucleu 
+  raza nucleu 
+  masa atomica 
+  masa nucleara
+   numar de masa constituiesnt inucleu atomic 
+   izotopii 
+   izobari 
+   
+   
+   stabil nucleu atomic 
+   energie de leg a nucleului 
+   eneg de leg pe nucleon 
+   proces de dezintegrare 
+   fisiunea si fuziunea 
+   forte nucleare 
+   modele nucleare 
+   reactii nuclearelegi de conservare 
+   tip de reactii nucleare 
+   fisiuen stimulata 
+   reactor nuclear 
+   
+   
+   radiatii nucleare 
+   radio activ naturala si artificiala
+   legile dintegraii radioactive 
+   interactiunea rad nucleare cu substanta 
+   detectori de radiatii nucleare 
+   
+   particule elementare 
+   acceleratori de particule 
+   descoprirea par elem 
+   prop part elem 
+   
+   eleme de fizica plasmei 
+   excitarea si ionizarea gazelor 
+   excitarea gazelor 
+   ionizarea gazelor 
+   
+   descarcari electrice in gaze 
+   
+   strapungerea gaelr la presiunea atmosferica 
+   scinteia electrica
+   strapungerea gazelor la joasa presiune 
+   descarcarea luminisenta
+   arcul electroc 
+   desc in arc 
+   lampi fluorescnte cu des in gaze 
+   
+   
+   plasma si pro ei 
+   def plasmei 
+   dnsit de saricna , concentratia , grad de ionizare 
+   plasma termonuclear 
+   fuziune termnuclear controlata 
+   plasma la temp ianlte 
+   fuziune ternonucleara
+   generator de plasma termonucleara
+   plasma in natura 
+   electe de astrfizica
+   plasma 
+   contiu principala al obiecteor cosmice 
+   reactii termonucleare in stele 
+   timp de viata al stelelor 
+   
+   
+
+
+
+
+
+
+
+
+
+
+

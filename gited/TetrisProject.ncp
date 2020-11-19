@@ -1,0 +1,63 @@
+<Project>
+  <Name>TetrisProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Tetris</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>JocTetris</Name>
+        <Access>Public</Access>
+        <Location left="7" top="11" />
+        <Size width="162" height="706" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int [,] mat = = new int[20,9]</Member>
+        <Member type="Field">int fig</Member>
+        <Member type="Field">int poz</Member>
+        <Member type="Field">int x1</Member>
+        <Member type="Field">int y1</Member>
+        <Member type="Field">int x2</Member>
+        <Member type="Field">int y2</Member>
+        <Member type="Field">int x3</Member>
+        <Member type="Field">int y3</Member>
+        <Member type="Field">int x4</Member>
+        <Member type="Field">int y4</Member>
+        <Member type="Field">int ax1</Member>
+        <Member type="Field">int ay1</Member>
+        <Member type="Field">int ax2</Member>
+        <Member type="Field">int ay2</Member>
+        <Member type="Field">int ax3</Member>
+        <Member type="Field">int ay3</Member>
+        <Member type="Field">int ax4</Member>
+        <Member type="Field">int ay4</Member>
+        <Member type="Field">int genpiese</Member>
+        <Member type="Field">int latx</Member>
+        <Member type="Field">int laty</Member>
+        <Member type="Field">int x00</Member>
+        <Member type="Field">int y00</Member>
+        <Member type="Field">int punctaj</Member>
+        <Member type="Method">public void load()</Member>
+        <Member type="Method">public void initmat()</Member>
+        <Member type="Method">public void df()</Member>
+        <Member type="Method">public void dp()</Member>
+        <Member type="Method">public void dreapta()</Member>
+        <Member type="Method">public void stanga()</Member>
+        <Member type="Method">public void jos()</Member>
+        <Member type="Method">public void rotire()</Member>
+        <Member type="Method">public void OnKeyDown()</Member>
+        <Member type="Method">public void potmut()</Member>
+        <Member type="Method">public void OnTimer1()</Member>
+        <Member type="Method">public void plina()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="185" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

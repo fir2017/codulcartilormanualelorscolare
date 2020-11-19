@@ -1,0 +1,31 @@
+<Project>
+  <Name>TesteGrilaProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>TesteGrila</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Forma</Name>
+        <Access>Public</Access>
+        <Location left="10" top="20" />
+        <Size width="162" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">CommandButton Button</Member>
+        <Member type="Field">SSFrame Intrebare</Member>
+        <Member type="Field">TextBox Intreb</Member>
+        <Member type="Field">SSFrame Raspunsuri</Member>
+        <Member type="Field">List &lt;SSCheck&gt; Raspuns</Member>
+        <Member type="Field">Image Imagine</Member>
+        <Member type="Field">int[] rasp</Member>
+        <Member type="Field">int[] cor</Member>
+        <Member type="Field">int quests</Member>
+        <Member type="Field">int punctaj</Member>
+        <Member type="Method">public void Load()</Member>
+        <Member type="Method">public void ButonClick()</Member>
+        <Member type="Method">public void Unload()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

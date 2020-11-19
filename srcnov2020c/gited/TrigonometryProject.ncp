@@ -1,0 +1,60 @@
+<Project>
+  <Name>TrigonometryProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Trigonometry</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Trigonometrie</Name>
+        <Access>Public</Access>
+        <Location left="11" top="13" />
+        <Size width="162" height="791" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Grad2Radian()</Member>
+        <Member type="Method">public void Radian2Grad()</Member>
+        <Member type="Method">public void GradSecunda2Radian()</Member>
+        <Member type="Method">public void GradMinut2Radian()</Member>
+        <Member type="Method">public void sin()</Member>
+        <Member type="Method">public void cos()</Member>
+        <Member type="Method">public void tan()</Member>
+        <Member type="Method">public void cot()</Member>
+        <Member type="Method">public void sec()</Member>
+        <Member type="Method">public void cosec()</Member>
+        <Member type="Method">public void fsin()</Member>
+        <Member type="Method">public void fcos()</Member>
+        <Member type="Method">public void ftan()</Member>
+        <Member type="Method">public void fcot()</Member>
+        <Member type="Method">public void fsec()</Member>
+        <Member type="Method">public void fcosec()</Member>
+        <Member type="Method">public void f2Angle()</Member>
+        <Member type="Method">public void Identitati()</Member>
+        <Member type="Method">public void f2Grade()</Member>
+        <Member type="Method">public void fReduction()</Member>
+        <Member type="Method">public void fPeriodicity()</Member>
+        <Member type="Method">public Grafic Grafice()</Member>
+        <Member type="Method">public void Relatii()</Member>
+        <Member type="Method">public void Adunare()</Member>
+        <Member type="Method">public void Diferenta()</Member>
+        <Member type="Method">public void DoubleAngles()</Member>
+        <Member type="Method">public void MultipleAngles()</Member>
+        <Member type="Method">public void HalfAngles()</Member>
+        <Member type="Method">public void HalfAngleTangentIdentity()</Member>
+        <Member type="Method">public void Trigonometric2Product()</Member>
+        <Member type="Method">public void TrigonometricExpression2Sum()</Member>
+        <Member type="Method">public void PowerOfTrigonometricFunctions()</Member>
+        <Member type="Method">public void GraphsOfInversTRigonometricFunction()</Member>
+        <Member type="Method">public void arcsin()</Member>
+        <Member type="Method">public void arccos()</Member>
+        <Member type="Method">public void arctan()</Member>
+        <Member type="Method">public void arccot()</Member>
+        <Member type="Method">public void arcsec()</Member>
+        <Member type="Method">public void arcsc()</Member>
+        <Member type="Method">public void InserseTrigonometricFunctionRelatii()</Member>
+        <Member type="Method">public void EcuatieTrigonometrica()</Member>
+        <Member type="Method">public void FunctiiHyperbolice(Imaginary i, Number x)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

@@ -1,0 +1,20 @@
+
+Start in proiectarea de programe !
+
+pas 1. contacteaza clientul proiectului
+pas 2. documenteazate despre subiectul considerat 
+pas 3. alegeti o echipa 
+pas 4. alegeti librariile, limbajele , medile de dezvoltare ide , masinile de lucru si sistemele de operare 
+pas 5. standardizeaza modul de lucru al echipei si prezinta cele alese la pasul 3
+pas 6. creaza un standard de testare si control
+pas 7. proiecteaza diagramele uml pentru proiect 
+pas 8. scrie codul , testeazal , modifical si retesteazal pana acesta functioneaza
+pas 9. rescrie codul pentru optimizare si viteza de lucru si operiti ajutor
+pas 10. furnizeaza proiectul clientului
+pas 11. incaseaza bani pe proiect 
+pas 12. asigura corectia si update pentru clienti dar si help si cursuri de instruire
+
+
+
+
+

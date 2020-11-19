@@ -1,0 +1,87 @@
+<Project>
+  <Name>EditorDeHartiProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>EditorDeHarti</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="6" top="13" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Image ob</Member>
+        <Member type="Field">Image obiectiv</Member>
+        <Member type="Field">Menu mnuHartaNoua</Member>
+        <Member type="Field">Menu mnuClear</Member>
+        <Member type="Field">Menu mnuExit</Member>
+        <Member type="Field">Menu mnuDespre</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Form2</Name>
+        <Access>Public</Access>
+        <Location left="7" top="256" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">TextBox Text1</Member>
+        <Member type="Field">Label Label1</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>HARTABAS</Name>
+        <Access>Public</Access>
+        <Location left="176" top="16" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Strada</Name>
+        <Access>Public</Access>
+        <Location left="180" top="257" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int x1</Member>
+        <Member type="Field">int x2</Member>
+        <Member type="Field">int y1</Member>
+        <Member type="Field">int y2</Member>
+        <Member type="Field">int tip</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>HartaFRM</Name>
+        <Access>Public</Access>
+        <Location left="364" top="13" />
+        <Size width="162" height="485" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int n</Member>
+        <Member type="Field">int ns</Member>
+        <Member type="Field">int xmin</Member>
+        <Member type="Field">int firstx</Member>
+        <Member type="Field">int firsty</Member>
+        <Member type="Field">int desen</Member>
+        <Member type="Field">List &lt;Strada &gt; Strazi</Member>
+        <Member type="Field">int rapx</Member>
+        <Member type="Field">int rapy</Member>
+        <Member type="Field">int x0</Member>
+        <Member type="Field">int y0</Member>
+        <Member type="Method">public void Load()</Member>
+        <Member type="Method">public void obiectivClick()</Member>
+        <Member type="Method">public void MouseDown()</Member>
+        <Member type="Method">public void mnuClearClick()</Member>
+        <Member type="Method">public void DragDrop()</Member>
+        <Member type="Method">public void obMouseDown()</Member>
+        <Member type="Method">public void Paint()</Member>
+        <Member type="Method">public void Resize()</Member>
+        <Member type="Method">public void Unload()</Member>
+        <Member type="Method">public void mnuDespreClick()</Member>
+        <Member type="Method">public void mnuExitClick()</Member>
+        <Member type="Method">public void mnuHartaNouaClick()</Member>
+        <Member type="Method">public void Text1KeyPress()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

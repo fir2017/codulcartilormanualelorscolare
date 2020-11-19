@@ -1,0 +1,119 @@
+<Project>
+  <Name>JocCiupercileProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Ciupercile</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Canvas</Name>
+        <Access>Public</Access>
+        <Location left="53" top="47" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void DeseneazaCurba()</Member>
+        <Member type="Method">public void ClearView()</Member>
+        <Member type="Method">public void Tipar()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Labirint</Name>
+        <Access>Public</Access>
+        <Location left="247" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int [,] L = new int [16,22]</Member>
+        <Member type="Method">public void CitesteLabirint()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Joc</Name>
+        <Access>Public</Access>
+        <Location left="429" top="10" />
+        <Size width="162" height="254" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List&lt;Ciuperca&gt; ciuperci = new List&lt;Ciuperca&gt;(30)</Member>
+        <Member type="Field">List&lt;Caracatita&gt; caracatite = new List&lt;Caracatite&gt;(10)</Member>
+        <Member type="Field">int nrciuperci</Member>
+        <Member type="Field">int nrciuperci_initiale</Member>
+        <Member type="Field">int nrcaracatite</Member>
+        <Member type="Method">public void AfiseazaPunctaj()</Member>
+        <Member type="Method">public void AfiseazaVieti()</Member>
+        <Member type="Method">public void TestVietiSiPunctaj()</Member>
+        <Member type="Method">public void MutaCaracatite()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Omulet</Name>
+        <Access>Public</Access>
+        <Location left="611" top="51" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int vieti</Member>
+        <Member type="Field">int x</Member>
+        <Member type="Field">int y</Member>
+        <Member type="Field">int xi</Member>
+        <Member type="Field">int yi</Member>
+        <Member type="Method">public void DeseneazaOmulet()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Ciuperca</Name>
+        <Access>Public</Access>
+        <Location left="611" top="282" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int x</Member>
+        <Member type="Field">int y</Member>
+        <Member type="Method">public void Init()</Member>
+        <Member type="Method">public void Display()</Member>
+        <Member type="Method">public void Clear()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Caracatita</Name>
+        <Access>Public</Access>
+        <Location left="429" top="282" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int x</Member>
+        <Member type="Field">int y</Member>
+        <Member type="Field">int mut</Member>
+        <Member type="Method">public void Init()</Member>
+        <Member type="Method">public void Display()</Member>
+        <Member type="Method">public void Clear()</Member>
+        <Member type="Method">public void Move()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="50" top="285" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void FormCreate()</Member>
+        <Member type="Method">public void onKeyDown()</Member>
+        <Member type="Method">public void onPaint()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Timer1</Name>
+        <Access>Public</Access>
+        <Location left="232" top="284" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void onTicker()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Button1</Name>
+        <Access>Public</Access>
+        <Location left="55" top="529" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void onClick()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

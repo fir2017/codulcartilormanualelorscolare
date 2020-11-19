@@ -1,0 +1,28 @@
+<Project>
+  <Name>NumarFoarteMareProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>NumarFoarteMare</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>NFM</Name>
+        <Access>Public</Access>
+        <Location left="32" top="37" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int Lg = 200</Member>
+        <Member type="Field">List &lt;char &gt; NrMare = new List &lt;char&gt; (Lg)</Member>
+        <Member type="Method">public void citire(int nx)</Member>
+        <Member type="Method">public void afisare(int nx)</Member>
+        <Member type="Method">public NFM suma(NFM nfma, int na, NFM nfmb, int nb, NFM s, int ns)</Member>
+        <Member type="Method">public NFM diferenta(NFM nfma, int na, NFM nfmb, int nb, NFM d, int nd)</Member>
+        <Member type="Method">public NFM produs(NFM nfma, int na, NFM nfmb, int nb, NFM p, int np)</Member>
+        <Member type="Method">public int suma(NFM nfma, int na, NFM nfmb, int nb)</Member>
+        <Member type="Method">public void putere10(int nx, int nr)</Member>
+        <Member type="Method">public float impartire(NFM nfma, int na, NFM nfmb, int nb, NFM c, int nc, int r)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

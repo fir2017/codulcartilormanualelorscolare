@@ -1,0 +1,84 @@
+<Project>
+  <Name>BioritmProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Bioritm</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>frmBioritm</Name>
+        <Access>Public</Access>
+        <Location left="6" top="16" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Picturebox Picture1</Member>
+        <Member type="Field">Label Label3</Member>
+        <Member type="Field">Label Label2</Member>
+        <Member type="Field">Label Label1</Member>
+        <Member type="Field">Menu mnuFile</Member>
+        <Member type="Field">Menu mnuWindow</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>frmDate</Name>
+        <Access>Public</Access>
+        <Location left="177" top="19" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">TextBox nume</Member>
+        <Member type="Field">TextBox datanasterii</Member>
+        <Member type="Field">TextBox datareferinta</Member>
+        <Member type="Field">CommandButton Comand</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>frmMDI</Name>
+        <Access>Public</Access>
+        <Location left="174" top="266" />
+        <Size width="162" height="366" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Form&gt; Forme</Member>
+        <Member type="Method">public void Load()</Member>
+        <Member type="Method">public void Unload()</Member>
+        <Member type="Method">public void mnuExitClick()</Member>
+        <Member type="Method">public void mnuFNewClick()</Member>
+        <Member type="Method">public void Text1KeyPress()</Member>
+        <Member type="Method">public void Text2KeyPress()</Member>
+        <Member type="Method">public void Text3KeyPress()</Member>
+        <Member type="Method">public void Command1Click()</Member>
+        <Member type="Method">public void mnuFCloseClick()</Member>
+        <Member type="Method">public void Unload()</Member>
+        <Member type="Method">public void mnuFExitClick()</Member>
+        <Member type="Method">public void mnuFNewClick()</Member>
+        <Member type="Method">public void mnuWArrangeClick()</Member>
+        <Member type="Method">public void mnuWCascadeClick()</Member>
+        <Member type="Method">public void mnuWTileClick()</Member>
+        <Member type="Method">public void Paint()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MDIBIOBAS</Name>
+        <Access>Public</Access>
+        <Location left="6" top="260" />
+        <Size width="162" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int modla</Member>
+        <Member type="Field">int cascade</Member>
+        <Member type="Field">int numepers</Member>
+        <Member type="Field">int datanast</Member>
+        <Member type="Field">int dataref</Member>
+        <Member type="Field">int primadata</Member>
+        <Member type="Field">List &lt; int &gt; z</Member>
+        <Member type="Field">List &lt;Persoana &gt; Persoane</Member>
+        <Member type="Field">List &lt; PErsoana &gt; Sters</Member>
+        <Member type="Method">public void Sters()</Member>
+        <Member type="Method">public frmBioritm Persoana()</Member>
+        <Member type="Method">public void MaiSuntFerestre()</Member>
+        <Member type="Method">public void PrimulIndiceDisponibil()</Member>
+        <Member type="Method">public void NrZile()</Member>
+        <Member type="Method">public void TrateazaBiortitm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

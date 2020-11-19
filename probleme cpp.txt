@@ -1,0 +1,388 @@
+probleme cpp
+
+1.
+aria disc = pi * r * r
+perimetrul disc = 2 * pi * r
+2.
+masamoleculara  = x * nc + y * no + nh
+3.
+triunghi 
+cifra = x0 = x%10
+x = x / 10
+4.
+schimba
+aux = a
+a= b
+b = aux
+5.
+leul si iepurele
+v2 > v1 ? v1 * t0 / (v2-v1) : -1
+6.
+bazin
+b = (x - h1 *(y-x)) / (h2+h1))
+a = (y-x)+ b
+
+7.
+rasturnatul unui numar
+r = 0
+while n
+ r = r*10 = n%10;
+ n /=10;
+ 
+ 
+ 8.nr cifrele unui numar
+ nr = 0
+ do
+ {
+ n/=10;
+ nr++;
+ }
+ while(n);
+ 
+ 9.
+ modul
+ if(x<0) m=-x;
+ else m=x;
+ 
+ 10.
+ paritate
+ if (x%2) par else impar
+ 
+ 11.ec de gr 2
+ float a,b,c,d;
+ d = b*b-4*a*c;
+ if(d<0) "nu are radacini reale"
+ else 
+  if(!d) print x1=x2 = -b/(2*a)
+  else 
+  print x1 = (-b+sqrt(b))/(2*a));
+  print x2 = (-b-sqrt(b))/(2*a);
+  
+  
+  12.
+  pt s = 3*x + 5*y
+  r = s%3
+  x = s/3 y = 0
+  x = s/3-3 y=2
+  x= 2/3-1 y=1
+  
+  
+  13.
+  aria triunghi
+  perimetrul = (x+y+z) / 2
+  ariattriunghi = sqrt(p*(p-x)*(p-y)*(p-z))
+  
+  14.
+  coduri si caractere
+  int cod = 0 to 255
+  (unsigned char)cod
+  
+  
+  15.
+  secventa simetrica
+  for(i=1;i<=n.2;i++) cout << i;
+   for(i=(n+n%2)/2;i;i--) cout<<i;
+  
+  
+  16.
+  maxim
+  if(a<b) cut << b
+  else cout << a;
+  
+  17.
+  media aritmetica
+  ma = suma(n)/n
+  
+  
+  18.
+  suma cifrelor
+  while(n)
+   s+=n%10;
+   n/=10;
+   }
+   
+   
+   19.
+   perechi
+   for(a=1;a<n;a++)
+   for(b=a;b<n;b++)
+   if(b%a==0) 
+   
+   
+   
+   20.
+   divizori
+   for(x=2;x<=n/2;x++)
+    if(n%x==0)
+	 print x;
+	 
+	 
+	 21.
+	 divizori 2
+	 rad = sqrt(n)
+	 for(x=2; x<=rad; x++)
+	  if(n%x==0)
+	  print x print n/x
+	  
+	  
+	  22.
+	  prim
+	  while(d<sqrt(n) && prim)
+	   if(n%d==0) prim = 0;
+	   else d++;
+	   if (prim) cout <<"este prim"
+	  
+	 
+	 23.
+	 prim 2
+	 prim = 1;
+	 if(n>2)
+	  if(n%2==0) prim = 0;
+	  else 
+	  for(d=3, rad = sqrt(n); d<=rad && prim ; d+=2)
+	   if(n%d==0) prim = 0
+	   if(prim) cout este prim, n
+	   
+	   
+	   24.
+	   descompunerea in factori primi
+	   #include <stdio.h>
+int main (void)
+{int n,d,m;
+scanf("%d",&n);
+for(d=2;n>1;d++)
+{/* calculez multiplicitatea lui ct in n */
+for(m=0;n%d==0;m++,n/=d);
+if(m)
+/* d este divizor */
+printf{"Divizorul %d, multiplicitatea %d\n",d,m);
+	   }
+	   return 0;
+	   }
+	   
+	   
+	   
+	   25.cmmdc
+	   
+	   #include·<stdio.h>
+int main (void)
+{int n,m, rest;
+scanf (n%d%d",&n,
+while(m)
+{ rest=n%m;
+n=m;
+m=rest;
+}
+printf ("cmmdc=%d",n);
+return 0;
+)
+	   
+	   
+	   
+	   26.
+	   gard
+	   int main(){
+	   int n , m , p , q , a ,b , r ,nec, ros, alb , vio;
+	   cin >> n;
+	   cin >> p >> q;
+	   
+	   a = p;
+	   b = q;
+	   while (b)
+	   {
+	   r = a%b;
+	   a=b;
+	   b=r;
+	   }
+	   m=p*q/a;
+	   vio=n/m;
+	   ros=n/p - vio;
+	   alb = n/q - vio;
+	   nec = n - ros = alb - vio;
+	   cout <<rec << ' '<<ros <<' '<<alb << ' '<<viod<<endl;
+	   return 0;
+	   }
+	   
+	   
+	   27.
+	   exponent
+	   int n , p , k = 0;
+	   for(k=0; n%p ==0 ; k++, n/=p);
+	   cout << k= << k<<endl;
+	   
+	   
+	   
+	   28.
+	   termen fibonacii
+	   
+	   int n , i , f0 = 1, f1 = 1, f2 = 1;
+	   cin << n;
+	   for(i=2;i<=n;i++){
+	  f2 = f1  + f0;
+	  f=  f1;
+	  f1 = f2;
+	  }
+	  print n , f2
+	  
+	  
+	  29.
+	  multiplu
+	  if(a%p==0) exista = 1;
+	  
+	  
+	  30.
+	  numar de divizori primi
+	  
+	  
+	  
+	  #include <stdio.h>
+	  int main()
+	  {
+	  unsigned n , x, d,  nr , i , oricare = 1;
+	  scanaf( n )
+	  nr = 0;
+	  d = 2;
+	  while(x>!)
+	  {if (x%d==0)
+	  {nr++;
+	  while(x%d==0) x/=d;}
+	  d++; }
+	  if(nr%2==0) oricare = 0;}
+	  if(oricare) printf "da"
+	  else printf "nu"
+	  return 0;
+	  }
+	  
+	  31.
+	  vocale
+	  unsigned nr = 0;
+	  char c'
+	  do{
+	  c = getchar();
+	  if(c=='a'...)
+	  nr++;}
+	  while(c!='.');
+      printf nr;
+	  
+	  }
+	  
+	  
+	  
+	  32.
+	  expresia e(n,x) = 1 + x/1! + x^2/2! +...+ x^n/n!
+  
+  
+  for(f = s = p = i = 1; i<= n ; i++)
+  {
+  f*=1;
+  p*=x;
+  s+=p/f;
+  }
+  cout << expresia << s << endl;
+  return 0;
+  }
+  
+  
+  
+  33.
+  radical
+  
+  define eps = 0.0001
+  
+  r2= 1
+  
+  do 
+  {
+  r1 = r2;
+  rf2 = (x * r1 + x / (r1*r1))/3'}
+  while(fabs(r2-r1)>=eps);
+   cout r2;
+   }
+   
+   
+   34.
+   relatie
+   perechi de nr care satisfat relatia m^2 *(n+1)=x
+   
+   for(i=1;i*i<=x;i++)
+    if(x % (i*i)==0)
+	 cout << i << (x/(i*i)-1)
+   
+   
+   
+   35.
+   suma de doua nr prime
+   
+   for(n=4; n <=vmax && oricare ; n++)
+    {for(exista = 0 , a=2; a<=n/2 && !exista ; a++)
+	{
+	prim = 1;
+	if(a>2 && a%2==0) prim = 0;
+	else
+	for(rad = sqrt(a), d=3; prim^d<=rad; d+=2)
+	if(a%d=0) prim = 0;
+	if(prim){
+	prim = 1;
+	if(n-1>2 && (n-1(%2==0) prim = 0;
+	else for(rad = sqrt(n-1(, d=3; prim && d<=rad ; d+=2)
+	if((n-1(%d==0) prim = 0;
+	if(prim) exista = 1;}
+	}
+	if(!exista) oricare = 0;}
+	if(oricare) cout << "prop este verif"
+	else 
+	cout << " prop nu este verif";
+	cout << "pt n" << n << " nu exista solutie ";}
+	return 0;
+	}
+	
+	
+	36.
+	progres
+	
+	if(a<=b) lg++;
+	else 
+	{ if(lgmax <lg)
+	lgmax = lg;
+	lg = 1;
+	}
+	a = b;
+	}
+	if(lgmax < lg ) lgmax = lg;
+	cout << "" lung max" << lgmax << endl;
+	return 0;
+	}
+	
+	
+	
+	37.
+	randomizare
+	raspuns = getche()
+    randomize();
+	x = random(100);
+	y= random(100);
+	suma = x + y;
+	
+	
+	
+	38.excursie
+	p47
+	
+	
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  

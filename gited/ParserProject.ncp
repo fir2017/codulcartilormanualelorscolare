@@ -1,0 +1,103 @@
+<Project>
+  <Name>ParserProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Parser</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>CKY</Name>
+        <Access>Public</Access>
+        <Location left="17" top="16" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void CKYAlgoritm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="191" top="17" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Grid StringGrid</Member>
+        <Member type="Field">Edit TextBox</Member>
+        <Member type="Field">Label Label1</Member>
+        <Member type="Method">public void EditKeyPress()</Member>
+        <Member type="Method">public void Create()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Parser</Name>
+        <Access>Public</Access>
+        <Location left="18" top="243" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int max</Member>
+        <Member type="Field">int maxreg</Member>
+        <Member type="Field">int maxcuv</Member>
+        <Member type="Field">int maxcuvinte</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cuvant</Name>
+        <Access>Public</Access>
+        <Location left="190" top="248" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">String sir</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MultimeDeCuvinte</Name>
+        <Access>Public</Access>
+        <Location left="210" top="337" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int nc</Member>
+        <Member type="Field">List &lt; Cuvant &gt; cuv</Member>
+        <Member type="Method">public void Adauga()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Regula</Name>
+        <Access>Public</Access>
+        <Location left="225" top="474" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Cuvant st</Member>
+        <Member type="Field">Cuvant dr</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Gramatica</Name>
+        <Access>Public</Access>
+        <Location left="241" top="583" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int nr</Member>
+        <Member type="Field">List &lt;Regula &gt; reg</Member>
+        <Member type="Method">public void Citeste()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Diagrama</Name>
+        <Access>Public</Access>
+        <Location left="13" top="477" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">MultimeDeCuvinte [,] chart</Member>
+        <Member type="Field">Gramatica G</Member>
+        <Member type="Field">Gramatica D</Member>
+        <Member type="Field">List &lt; Cuvant&gt; Propoz</Member>
+        <Member type="Method">public void DeseneazaChart()</Member>
+        <Member type="Method">public void EsteIn()</Member>
+        <Member type="Method">public void Star()</Member>
+        <Member type="Method">public void Closure()</Member>
+        <Member type="Method">public void Lookup()</Member>
+        <Member type="Method">public void Parseaza()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

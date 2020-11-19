@@ -1,0 +1,39 @@
+<Project>
+  <Name>BilaProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Bila</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Joc</Name>
+        <Access>Public</Access>
+        <Location left="8" top="18" />
+        <Size width="162" height="434" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">SpinButton Spin3</Member>
+        <Member type="Field">SpinButton Spin2</Member>
+        <Member type="Field">SpinButton Spin1</Member>
+        <Member type="Field">Timer Timer1</Member>
+        <Member type="Field">Label Label1</Member>
+        <Member type="Field">Shape Paleta</Member>
+        <Member type="Field">Shape Bila</Member>
+        <Member type="Field">int dx</Member>
+        <Member type="Field">int dy</Member>
+        <Member type="Field">int pasb</Member>
+        <Member type="Field">int pasp</Member>
+        <Member type="Field">int punctaj</Member>
+        <Member type="Method">public void Timer1Timer()</Member>
+        <Member type="Method">public void OnKeyDown()</Member>
+        <Member type="Method">public void Load()</Member>
+        <Member type="Method">public void Spin1SpinDown()</Member>
+        <Member type="Method">public void Spin1SpinUp()</Member>
+        <Member type="Method">public void Spin2SpinUp()</Member>
+        <Member type="Method">public void Spin2SinDown()</Member>
+        <Member type="Method">public void Spin3SpinDown()</Member>
+        <Member type="Method">public FormClick Spin3SpinUp()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

@@ -1,0 +1,32 @@
+<Project>
+  <Name>AutoWebProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>AutoWeb</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="5" top="13" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void TabControlChange()</Member>
+        <Member type="Method">public void Create()</Member>
+        <Member type="Method">public void Button1Click()</Member>
+        <Member type="Method">public void Button2Click()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AutoWeb</Name>
+        <Access>Public</Access>
+        <Location left="176" top="15" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt; string &gt; subiect</Member>
+        <Member type="Field">int nrsubtratat</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

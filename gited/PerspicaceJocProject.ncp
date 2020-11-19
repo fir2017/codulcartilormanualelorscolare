@@ -1,0 +1,37 @@
+<Project>
+  <Name>PerspicaceJocProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>PerspicaceJoc</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Form1</Name>
+        <Access>Public</Access>
+        <Location left="4" top="10" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Edit TextBox</Member>
+        <Member type="Field">Button1 Button</Member>
+        <Member type="Method">public void ButtonClick()</Member>
+        <Member type="Method">public void FormCreate()</Member>
+        <Member type="Method">public void ClickButon()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Joc</Name>
+        <Access>Public</Access>
+        <Location left="177" top="10" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int MaxButoane = 121</Member>
+        <Member type="Field">List &lt; Button &gt; Buton</Member>
+        <Member type="Field">int ii</Member>
+        <Member type="Field">int jj</Member>
+        <Member type="Field">int n</Member>
+        <Member type="Field">int x</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

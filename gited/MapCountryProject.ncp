@@ -1,0 +1,63 @@
+<Project>
+  <Name>MapCountryProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>MapCountry</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Map</Name>
+        <Access>Public</Access>
+        <Location left="192" top="26" />
+        <Size width="179" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List &lt;Locatie&gt; ListaDeLocatii</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Patrulater</Name>
+        <Access>Public</Access>
+        <Location left="382" top="259" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">float x1</Member>
+        <Member type="Field">float y1</Member>
+        <Member type="Field">float x2</Member>
+        <Member type="Field">float y2</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Locatie</Name>
+        <Access>Public</Access>
+        <Location left="382" top="26" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">String Denumire</Member>
+        <Member type="Field">Patrulater Pozitie</Member>
+        <Member type="Field">Image Picture</Member>
+        <Member type="Field">String Memo</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Picture</Name>
+        <Access>Public</Access>
+        <Location left="547" top="259" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Image Imagine</Member>
+        <Member type="Event">public event EventHandler OnMouseClick</Member>
+        <Member type="Event">public event EventHandler OnMouseMove</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Form</Name>
+        <Access>Public</Access>
+        <Location left="20" top="25" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Map TheMap</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
