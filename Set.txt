@@ -1,0 +1,288 @@
+class propritate ()
+{
+	
+}
+
+class element 
+{
+valoare string ;
+}
+
+class multime 
+{
+		List <element > elementele = new List<element>();
+		void Complement(ref multime cm)
+		{
+			
+			for(int i = 0; i< elementele.Length ; i++)
+			{
+				cm.Add(new element);
+				cm.elementele[i] = elementele[i] * -1;
+			}
+			
+		}
+		
+		void Subset(proprietate p, ref multime cs)
+		{
+			
+			for(int i = 0; i< elementele.Length ; i++)
+			{
+			if(elementele[i]==p){
+				cs.Add(new element);
+				cs.elementele[i] = elementele[i];
+				}
+			}
+			
+		}
+		bool IsEmpty()
+		{
+			if(elementele.Length==0){return true;}
+			else { return false;}
+		}
+		bool exista(element e)
+		{
+			bool gasit = false;
+			for(int i = 0 ; i< elementele.Length and gasit = false; i++)
+			{
+				if(elementele[i]==e){gasit =true;}
+				
+			}
+			return gasit;
+		}
+		bool existaXinM(element e,ref multime x)
+		{
+			bool gasit = false;
+			for(int i = 0 ; i< x.elementele.Length and gasit = false; i++)
+			{
+				if(x.elementele[i]==e){gasit =true;}
+				
+			}
+			return gasit;
+		}
+		void reuniune(ref multime B, ref multime cu)
+		{
+			
+			for(int i = 0; i< elementele.Length ; i++)
+			{
+				cu.Add(new element);
+				cu.elementele[i] = elementele[i] ;
+			}
+			for(int i = 0; i< elementele.Length ; i++)
+			{
+				if(B.multime.exista(elementele[i])==false)
+				{
+					cu.Add(new element);
+					cu.elementele[i] = B.elementele[i] ;
+				}
+			}
+			
+		}
+		void intersectie(ref multime B, ref multime n)
+		{
+			
+			for(int i = 0; i< elementele.Length ; i++)
+			{
+				if(B.multime.exista(elementele[i])==true)
+				{
+					n.Add(new element);
+					n.elementele[i] = B.elementele[i] ;
+				}
+			}
+			for(int i = 0; i< elementele.Length ; i++)
+			{
+				if(this.existaXinM(elementele[i],B)==true)
+				{
+					C.Add(new element);
+					C.elementele[i] = elementele[i] ;
+				}
+			}
+			
+		}
+		void  diferenta(ref multime B, ref multime d)
+		{
+			
+			for(int i = 0; i< elementele.Length ; i++)
+			{
+				if(B.multime.exista(elementele[i])==false)
+				{
+					d.Add(new element);
+					d.elementele[i] = elementele[i] ;
+				}
+			}
+			
+		}
+		bool inclus(ref multime B)
+		{
+			bool esteinclusa = false;
+			for(int i = 0 ; i<B.elemenele.Length and esteinclusa==false;i++)
+			{
+				if(exista(B.elemenele[i])==true)
+				{
+					esteinclusa = true;
+				}
+			}
+			
+			return esteinclusa;
+		}
+		
+		bool egale(ref multime B)
+		{
+			if((this.inclus(B)==true)and(B.inclus(this)==true))
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		
+		bool comutativitateReuniunii(ref multime B)
+		{
+			if(egale(this.reunit(B))and(egale(B.reunit(this)))
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		
+		bool asociativitateReuniunii(ref multime B, ref multime C)
+		{
+			//AU(BUC) = (AUB)UC
+			//posibila eroare auX(buc) == (aub)Xc
+			//daca X inseamna inmultire
+			if(egale(this.reunit(B))and(egale(B.reunit(C)))
+			{
+				if(egale(this.reunit(B))and(egale(B.reunit(C)))
+				{
+					return true;
+				}
+				else
+				{
+					return false;
+				}
+			}
+			else
+			{
+				return false;
+			}
+		}
+		bool comutativitateIncluziunii(ref multime B)
+		{
+			if(egale(this.intersectie(B))and(egale(B.intersectie(this))))
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		
+		bool asociativitateIncluziunii(ref multime B, ref multime C)
+		{
+			//AN(BNC) = (ANB)NC
+			
+			//posibila eroare anX(bnc) == (anb)Xc
+			//daca X inseamna inmultire
+			if(egale(this.intersectie(B))and(egale(B.intersectie(C)))
+			{
+				if(egale(this.intersectie(B))and(egale(B.intersectie(C)))
+				{
+					return true;
+				}
+				else
+				{
+					return false;
+				}
+			}
+			else
+			{
+				return false;
+			}
+		}
+		
+		bool distributivitateaIncluziuniiFataDeReuniune(){
+			AN(BUC) = (ANB)N(AUC)
+		}
+		bool distributivitateaReuniuniiFataDeIncluziune(){
+			//AUB(BNC) = (AUB)N(AUC)
+		}
+		bool idempotentaReuniunii(){
+			//ANA = A
+		}
+		bool idempotentaIncluziunii(){
+			//AUA = A
+		}
+		bool elementNeutruIncluziune(){
+			//ANVID = VID
+		}
+		bool elementNeutruReuniune(){
+			//AUI=I
+		}
+		bool identitatiReuniune(){
+			//AUVID = A
+		}
+		bool IdentitatiIntersectie(){
+			//ANI=A
+		}
+		multime complementara(){
+			// A'= X AP I SI X NUAP A
+		}
+		multime complementaraReuniunii(){
+			//AUA' = I
+		}
+		multime complementaraIntersectiei(){
+			//ANA' = VID
+		}
+		bool DeMorganIntersectie(){
+			//(ANB)'  = A'UB'
+		}
+		bool DeMorganReuniune(){
+			//(AUB)' = A'NB'
+		}
+		bool diferentaStricta(){
+			//C=B/A = X AP B SI X NU AP A
+	
+		}
+		
+		bool eDiferentaBA(){
+		//B/A = B/(ANB)
+		}
+		bool eDiferentaABIntersectie(){
+		//B/A = BNA'
+		}
+		bool DiferentaAA()
+		{
+			//A/A = VID
+		
+		}
+		
+		bool diferentaABA()
+		{
+			//A/B = A IF ANB = VID
+		}		
+		
+		
+		
+		bool AUBNC(){
+		//(A/B)NC = (ANC)/(BNC)
+		}
+		
+		
+		
+		void multimeInversaA(ref multime IA){
+		
+			//A' = I/A
+		}
+		
+		
+		void produsCartezian(ref multime B, ref multime PC)(){
+			//AXB = (X,Y) , UNDE X AP A SI Y AP B/
+			
+		}
+		
+}
